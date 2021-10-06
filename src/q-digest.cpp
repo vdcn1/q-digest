@@ -191,7 +191,12 @@ int main(int argc, char **argv) {
       i++;
     }
     else if(!strcmp(argv[i],"--help")) {
-      
+      ifstream help_file("q-digest.txt");
+      string line;
+      while(getline(help_file, line)){
+        cout << line << endl;
+      }
+      return 0;
     }
     else if(!strcmp(argv[i], "--univ")) {
       U = stoul(argv[i+1]); 
