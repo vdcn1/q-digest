@@ -1,0 +1,1222 @@
+desc: (none)
+cmd: ./q-digest-profile --val 0 --in ../data/INPUT_query_rank_t_0.csv --eps 0.1 --univ 1522916 ../data/network_flows.csv rank
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=698685613
+mem_heap_B=2116068
+mem_heap_extra_B=339396
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=1128439047
+mem_heap_B=2347522
+mem_heap_extra_B=377974
+mem_stacks_B=0
+heap_tree=detailed
+n3: 2347522 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2265888 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 2265888 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 2265888 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 2265888 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 2265888 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 2265888 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 2265888 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n1: 72704 0x490026A: pool (eh_alloc.cc:123)
+  n1: 72704 0x490026A: __static_initialization_and_destruction_0 (eh_alloc.cc:262)
+   n1: 72704 0x490026A: _GLOBAL__sub_I_eh_alloc.cc (eh_alloc.cc:338)
+    n1: 72704 0x400FE2D: call_init (in /usr/lib/ld-2.33.so)
+     n1: 72704 0x400FF1B: _dl_init (in /usr/lib/ld-2.33.so)
+      n1: 72704 0x40010C9: ??? (in /usr/lib/ld-2.33.so)
+       n1: 72704 0xA: ???
+        n1: 72704 0x1FFF000972: ???
+         n1: 72704 0x1FFF000985: ???
+          n1: 72704 0x1FFF00098B: ???
+           n1: 72704 0x1FFF00098D: ???
+            n1: 72704 0x1FFF000992: ???
+             n1: 72704 0x1FFF0009B3: ???
+              n1: 72704 0x1FFF0009B9: ???
+               n1: 72704 0x1FFF0009BD: ???
+                n1: 72704 0x1FFF0009C4: ???
+                 n1: 72704 0x1FFF0009CC: ???
+                  n0: 72704 0x1FFF0009E6: ???
+ n0: 8930 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=3
+#-----------
+time=1809597680
+mem_heap_B=4215257
+mem_heap_extra_B=689255
+mem_stacks_B=0
+heap_tree=detailed
+n3: 4215257 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4133616 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 4133616 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 4133616 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 4133616 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 4133616 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 4133616 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 4133616 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n1: 72704 0x490026A: pool (eh_alloc.cc:123)
+  n1: 72704 0x490026A: __static_initialization_and_destruction_0 (eh_alloc.cc:262)
+   n1: 72704 0x490026A: _GLOBAL__sub_I_eh_alloc.cc (eh_alloc.cc:338)
+    n1: 72704 0x400FE2D: call_init (in /usr/lib/ld-2.33.so)
+     n1: 72704 0x400FF1B: _dl_init (in /usr/lib/ld-2.33.so)
+      n1: 72704 0x40010C9: ??? (in /usr/lib/ld-2.33.so)
+       n1: 72704 0xA: ???
+        n1: 72704 0x1FFF000972: ???
+         n1: 72704 0x1FFF000985: ???
+          n1: 72704 0x1FFF00098B: ???
+           n1: 72704 0x1FFF00098D: ???
+            n1: 72704 0x1FFF000992: ???
+             n1: 72704 0x1FFF0009B3: ???
+              n1: 72704 0x1FFF0009B9: ???
+               n1: 72704 0x1FFF0009BD: ???
+                n1: 72704 0x1FFF0009C4: ???
+                 n1: 72704 0x1FFF0009CC: ???
+                  n0: 72704 0x1FFF0009E6: ???
+ n0: 8937 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=4
+#-----------
+time=2290814651
+mem_heap_B=5242592
+mem_heap_extra_B=860456
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=2953233022
+mem_heap_B=6790457
+mem_heap_extra_B=1118455
+mem_stacks_B=0
+heap_tree=detailed
+n2: 6790457 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 6708816 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 6708816 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 6708816 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 6708816 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 6708816 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 6708816 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 6708816 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81641 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=6
+#-----------
+time=3278553295
+mem_heap_B=7650565
+mem_heap_extra_B=1261811
+mem_stacks_B=0
+heap_tree=detailed
+n2: 7650565 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 7568928 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 7568928 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 7568928 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 7568928 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 7568928 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 7568928 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 7568928 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81637 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=7
+#-----------
+time=4031546173
+mem_heap_B=9224432
+mem_heap_extra_B=1524096
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=4619198974
+mem_heap_B=10833536
+mem_heap_extra_B=1792280
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=5045306437
+mem_heap_B=11719913
+mem_heap_extra_B=1940031
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=5622236248
+mem_heap_B=12829288
+mem_heap_extra_B=2124928
+mem_stacks_B=0
+heap_tree=detailed
+n2: 12829288 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 12747648 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 12747648 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 12747648 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 12747648 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 12747648 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 12747648 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 12747648 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81640 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=11
+#-----------
+time=6004201377
+mem_heap_B=13754097
+mem_heap_extra_B=2279071
+mem_stacks_B=0
+heap_tree=detailed
+n2: 13754097 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 13672464 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 13672464 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 13672464 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 13672464 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 13672464 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 13672464 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 13672464 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81633 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=12
+#-----------
+time=6646666166
+mem_heap_B=14708257
+mem_heap_extra_B=2438079
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=7229879486
+mem_heap_B=16126351
+mem_heap_extra_B=2674417
+mem_stacks_B=0
+heap_tree=detailed
+n2: 16126351 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 16044720 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 16044720 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 16044720 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 16044720 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 16044720 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 16044720 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 16044720 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81631 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=14
+#-----------
+time=7907768302
+mem_heap_B=17065088
+mem_heap_extra_B=2830872
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=8496193896
+mem_heap_B=18535376
+mem_heap_extra_B=3075920
+mem_stacks_B=0
+heap_tree=detailed
+n2: 18535376 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 18453744 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 18453744 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 18453744 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 18453744 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 18453744 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 18453744 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 18453744 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81632 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=16
+#-----------
+time=9216363240
+mem_heap_B=19786982
+mem_heap_extra_B=3284546
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=9874369236
+mem_heap_B=21517471
+mem_heap_extra_B=3572937
+mem_stacks_B=0
+heap_tree=detailed
+n2: 21517471 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 21435840 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 21435840 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 21435840 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 21435840 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 21435840 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 21435840 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 21435840 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81631 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=18
+#-----------
+time=10222539577
+mem_heap_B=22162555
+mem_heap_extra_B=3680469
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=10739843946
+mem_heap_B=23299625
+mem_heap_extra_B=3869983
+mem_stacks_B=0
+heap_tree=detailed
+n2: 23299625 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 23217984 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 23217984 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 23217984 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 23217984 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 23217984 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 23217984 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 23217984 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81641 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=20
+#-----------
+time=11162791413
+mem_heap_B=24245311
+mem_heap_extra_B=4027577
+mem_stacks_B=0
+heap_tree=detailed
+n2: 24245311 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 24163680 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 24163680 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 24163680 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 24163680 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 24163680 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 24163680 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 24163680 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81631 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=11710242230
+mem_heap_B=25191104
+mem_heap_extra_B=4185208
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=12335653523
+mem_heap_B=26515951
+mem_heap_extra_B=4406017
+mem_stacks_B=0
+heap_tree=detailed
+n2: 26515951 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 26434320 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 26434320 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 26434320 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 26434320 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 26434320 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 26434320 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 26434320 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81631 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=23
+#-----------
+time=12788504659
+mem_heap_B=27195414
+mem_heap_extra_B=4519266
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=13504465971
+mem_heap_B=28712249
+mem_heap_extra_B=4772087
+mem_stacks_B=0
+heap_tree=detailed
+n2: 28712249 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 28630608 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 28630608 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 28630608 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 28630608 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 28630608 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 28630608 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 28630608 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81641 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=25
+#-----------
+time=14086830594
+mem_heap_B=29877686
+mem_heap_extra_B=4966330
+mem_stacks_B=0
+heap_tree=detailed
+n2: 29877686 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 29796048 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 29796048 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 29796048 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 29796048 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 29796048 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 29796048 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 29796048 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81638 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=26
+#-----------
+time=14776791945
+mem_heap_B=31715221
+mem_heap_extra_B=5272587
+mem_stacks_B=0
+heap_tree=detailed
+n2: 31715221 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 31633584 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 31633584 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 31633584 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 31633584 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 31633584 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 31633584 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 31633584 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81637 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=27
+#-----------
+time=15373844969
+mem_heap_B=33002624
+mem_heap_extra_B=5487128
+mem_stacks_B=0
+heap_tree=detailed
+n2: 33002624 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 32920992 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 32920992 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 32920992 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 32920992 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 32920992 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 32920992 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 32920992 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81632 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=28
+#-----------
+time=15915652477
+mem_heap_B=34342268
+mem_heap_extra_B=5710420
+mem_stacks_B=0
+heap_tree=detailed
+n2: 34342268 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 34260624 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 34260624 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 34260624 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 34260624 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 34260624 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 34260624 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 34260624 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81644 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=29
+#-----------
+time=16577505627
+mem_heap_B=36093648
+mem_heap_extra_B=6002312
+mem_stacks_B=0
+heap_tree=detailed
+n2: 36093648 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 36012000 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 36012000 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 36012000 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 36012000 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 36012000 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 36012000 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 36012000 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81648 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=30
+#-----------
+time=17350675619
+mem_heap_B=37934342
+mem_heap_extra_B=6309106
+mem_stacks_B=0
+heap_tree=detailed
+n2: 37934342 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 37852704 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 37852704 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 37852704 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 37852704 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 37852704 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 37852704 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 37852704 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81638 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=31
+#-----------
+time=17952919815
+mem_heap_B=39474279
+mem_heap_extra_B=6565761
+mem_stacks_B=0
+heap_tree=detailed
+n2: 39474279 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 39392640 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 39392640 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 39392640 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 39392640 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 39392640 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 39392640 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 39392640 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81639 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=32
+#-----------
+time=18398519977
+mem_heap_B=40670105
+mem_heap_extra_B=6765063
+mem_stacks_B=0
+heap_tree=detailed
+n2: 40670105 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 40588464 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 40588464 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 40588464 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 40588464 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 40588464 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 40588464 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 40588464 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81641 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=33
+#-----------
+time=18768474115
+mem_heap_B=41487394
+mem_heap_extra_B=6901286
+mem_stacks_B=0
+heap_tree=detailed
+n2: 41487394 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 41405760 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 41405760 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 41405760 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 41405760 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 41405760 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 41405760 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 41405760 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81634 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=34
+#-----------
+time=19251545050
+mem_heap_B=42321114
+mem_heap_extra_B=7040230
+mem_stacks_B=0
+heap_tree=detailed
+n2: 42321114 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 42239472 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 42239472 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 42239472 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 42239472 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 42239472 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 42239472 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 42239472 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81642 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=35
+#-----------
+time=20043723217
+mem_heap_B=44039139
+mem_heap_extra_B=7326557
+mem_stacks_B=0
+heap_tree=detailed
+n2: 44039139 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 43957488 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 43957488 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 43957488 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 43957488 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 43957488 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 43957488 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 43957488 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81651 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=36
+#-----------
+time=20562233682
+mem_heap_B=44924154
+mem_heap_extra_B=7474070
+mem_stacks_B=0
+heap_tree=detailed
+n2: 44924154 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 44842512 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 44842512 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 44842512 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 44842512 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 44842512 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 44842512 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 44842512 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81642 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=37
+#-----------
+time=21201674844
+mem_heap_B=46285089
+mem_heap_extra_B=7700903
+mem_stacks_B=0
+heap_tree=detailed
+n2: 46285089 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 46203456 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 46203456 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 46203456 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 46203456 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 46203456 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 46203456 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 46203456 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81633 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=38
+#-----------
+time=21965290928
+mem_heap_B=47569664
+mem_heap_extra_B=7914968
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=22492167564
+mem_heap_B=48645633
+mem_heap_extra_B=8094327
+mem_stacks_B=0
+heap_tree=detailed
+n2: 48645633 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 48564000 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 48564000 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 48564000 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 48564000 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 48564000 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 48564000 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 48564000 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81633 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=40
+#-----------
+time=23281959365
+mem_heap_B=50119381
+mem_heap_extra_B=8339947
+mem_stacks_B=0
+heap_tree=detailed
+n2: 50119381 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 50037744 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 50037744 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 50037744 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 50037744 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 50037744 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 50037744 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 50037744 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81637 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=41
+#-----------
+time=23652616972
+mem_heap_B=51126620
+mem_heap_extra_B=8507812
+mem_stacks_B=0
+heap_tree=detailed
+n2: 51126620 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 51044976 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 51044976 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 51044976 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 51044976 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 51044976 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 51044976 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 51044976 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81644 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=42
+#-----------
+time=24200674318
+mem_heap_B=52154107
+mem_heap_extra_B=8679061
+mem_stacks_B=0
+heap_tree=detailed
+n2: 52154107 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 52072464 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 52072464 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 52072464 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 52072464 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 52072464 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 52072464 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 52072464 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81643 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=43
+#-----------
+time=24694740425
+mem_heap_B=53088950
+mem_heap_extra_B=8834874
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=25168948517
+mem_heap_B=54254000
+mem_heap_extra_B=9029024
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=25706356744
+mem_heap_B=55247168
+mem_heap_extra_B=9194552
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=26308870001
+mem_heap_B=56474722
+mem_heap_extra_B=9399174
+mem_stacks_B=0
+heap_tree=detailed
+n2: 56474722 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 56393088 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 56393088 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 56393088 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 56393088 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 56393088 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 56393088 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 56393088 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81634 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=47
+#-----------
+time=26838416163
+mem_heap_B=57504512
+mem_heap_extra_B=9570776
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=27217722978
+mem_heap_B=58185697
+mem_heap_extra_B=9684319
+mem_stacks_B=0
+heap_tree=detailed
+n2: 58185697 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 58104048 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 58104048 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 58104048 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 58104048 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 58104048 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 58104048 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 58104048 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81649 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=49
+#-----------
+time=27462024012
+mem_heap_B=58555280
+mem_heap_extra_B=9745904
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=27544599750
+mem_heap_B=58767447
+mem_heap_extra_B=9781289
+mem_stacks_B=0
+heap_tree=detailed
+n2: 58767447 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 58685808 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 58685808 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 58685808 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 58685808 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 58685808 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 58685808 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 58685808 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81639 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=51
+#-----------
+time=27750802308
+mem_heap_B=59355018
+mem_heap_extra_B=9879214
+mem_stacks_B=0
+heap_tree=detailed
+n2: 59355018 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 59273376 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 59273376 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 59273376 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 59273376 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 59273376 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 59273376 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 59273376 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81642 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=52
+#-----------
+time=27974583406
+mem_heap_B=59948491
+mem_heap_extra_B=9978125
+mem_stacks_B=0
+heap_tree=detailed
+n2: 59948491 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 59866848 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 59866848 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 59866848 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 59866848 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 59866848 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 59866848 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 59866848 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81643 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=53
+#-----------
+time=28233621361
+mem_heap_B=60547865
+mem_heap_extra_B=10078023
+mem_stacks_B=0
+heap_tree=detailed
+n2: 60547865 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 60466224 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 60466224 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 60466224 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 60466224 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 60466224 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 60466224 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 60466224 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81641 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=54
+#-----------
+time=28528483096
+mem_heap_B=61153248
+mem_heap_extra_B=10178912
+mem_stacks_B=0
+heap_tree=detailed
+n2: 61153248 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 61071600 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 61071600 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 61071600 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 61071600 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 61071600 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 61071600 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 61071600 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81648 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=55
+#-----------
+time=28767296105
+mem_heap_B=61764677
+mem_heap_extra_B=10280811
+mem_stacks_B=0
+heap_tree=detailed
+n2: 61764677 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 61683024 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 61683024 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 61683024 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 61683024 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 61683024 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 61683024 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 61683024 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81653 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=56
+#-----------
+time=29022402567
+mem_heap_B=62382235
+mem_heap_extra_B=10383749
+mem_stacks_B=0
+heap_tree=detailed
+n2: 62382235 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 62300592 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 62300592 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 62300592 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 62300592 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 62300592 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 62300592 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 62300592 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81643 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=57
+#-----------
+time=29283193712
+mem_heap_B=63005941
+mem_heap_extra_B=10487707
+mem_stacks_B=0
+heap_tree=detailed
+n2: 63005941 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 62924304 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 62924304 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 62924304 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 62924304 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 62924304 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 62924304 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 62924304 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81637 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=58
+#-----------
+time=29608518292
+mem_heap_B=63557898
+mem_heap_extra_B=10579694
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=29629981473
+mem_heap_B=63635899
+mem_heap_extra_B=10592693
+mem_stacks_B=0
+heap_tree=detailed
+n2: 63635899 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 63554256 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 63554256 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 63554256 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 63554256 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 63554256 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 63554256 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 63554256 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81643 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=60
+#-----------
+time=29815979726
+mem_heap_B=64272182
+mem_heap_extra_B=10698746
+mem_stacks_B=0
+heap_tree=detailed
+n2: 64272182 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 64190544 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 64190544 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 64190544 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 64190544 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 64190544 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 64190544 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 64190544 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81638 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=61
+#-----------
+time=30130932598
+mem_heap_B=64914802
+mem_heap_extra_B=10805854
+mem_stacks_B=0
+heap_tree=detailed
+n2: 64914802 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 64833168 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 64833168 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 64833168 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 64833168 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 64833168 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 64833168 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 64833168 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81634 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=62
+#-----------
+time=30456253127
+mem_heap_B=65490431
+mem_heap_extra_B=10901777
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=30499940795
+mem_heap_B=65563866
+mem_heap_extra_B=10914022
+mem_stacks_B=0
+heap_tree=detailed
+n2: 65563866 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 65482224 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 65482224 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 65482224 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 65482224 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 65482224 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 65482224 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 65482224 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81642 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=64
+#-----------
+time=30825265150
+mem_heap_B=66114560
+mem_heap_extra_B=11005784
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=31007439435
+mem_heap_B=66219395
+mem_heap_extra_B=11023285
+mem_stacks_B=0
+heap_tree=detailed
+n2: 66219395 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 66137760 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 66137760 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 66137760 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 66137760 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 66137760 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 66137760 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 66137760 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81635 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=66
+#-----------
+time=31234521855
+mem_heap_B=66881515
+mem_heap_extra_B=11133629
+mem_stacks_B=0
+heap_tree=detailed
+n2: 66881515 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 66799872 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 66799872 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 66799872 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 66799872 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 66799872 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 66799872 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 66799872 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81643 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=67
+#-----------
+time=31556986665
+mem_heap_B=67550260
+mem_heap_extra_B=11245076
+mem_stacks_B=0
+heap_tree=detailed
+n2: 67550260 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 67468608 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 67468608 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 67468608 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 67468608 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 67468608 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 67468608 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 67468608 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81652 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=68
+#-----------
+time=31882310598
+mem_heap_B=68190656
+mem_heap_extra_B=11351800
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=31907713617
+mem_heap_B=68225662
+mem_heap_extra_B=11357650
+mem_stacks_B=0
+heap_tree=detailed
+n2: 68225662 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 68144016 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 68144016 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 68144016 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 68144016 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 68144016 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 68144016 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 68144016 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81646 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=70
+#-----------
+time=32233038839
+mem_heap_B=68752496
+mem_heap_extra_B=11445440
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=32385965520
+mem_heap_B=68907832
+mem_heap_extra_B=11471352
+mem_stacks_B=0
+heap_tree=detailed
+n2: 68907832 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 68826192 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 68826192 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 68826192 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 68826192 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 68826192 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 68826192 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 68826192 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81640 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=72
+#-----------
+time=32653536029
+mem_heap_B=69596825
+mem_heap_extra_B=11586183
+mem_stacks_B=0
+heap_tree=detailed
+n2: 69596825 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 69515184 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 69515184 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 69515184 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 69515184 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 69515184 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 69515184 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 69515184 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81641 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=73
+#-----------
+time=32978858851
+mem_heap_B=70228064
+mem_heap_extra_B=11691368
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=33008598066
+mem_heap_B=70292690
+mem_heap_extra_B=11702150
+mem_stacks_B=0
+heap_tree=detailed
+n2: 70292690 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 70211040 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 70211040 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 70211040 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 70211040 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 70211040 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 70211040 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 70211040 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81650 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=75
+#-----------
+time=33333918742
+mem_heap_B=70804112
+mem_heap_extra_B=11787376
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=33468007944
+mem_heap_B=70995498
+mem_heap_extra_B=11819294
+mem_stacks_B=0
+heap_tree=detailed
+n2: 70995498 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 70913856 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 70913856 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 70913856 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 70913856 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 70913856 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 70913856 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 70913856 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81642 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=77
+#-----------
+time=33793328533
+mem_heap_B=71594437
+mem_heap_extra_B=11919123
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=33835010491
+mem_heap_B=71705371
+mem_heap_extra_B=11937605
+mem_stacks_B=0
+heap_tree=detailed
+n2: 71705371 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 71623728 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 71623728 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 71623728 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 71623728 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 71623728 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 71623728 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 71623728 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81643 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=79
+#-----------
+time=34160332236
+mem_heap_B=72386144
+mem_heap_extra_B=12051048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=34180073052
+mem_heap_B=72422337
+mem_heap_extra_B=12057111
+mem_stacks_B=0
+heap_tree=detailed
+n2: 72422337 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72340704 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 72340704 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 72340704 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 72340704 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 72340704 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 72340704 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 72340704 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81633 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=81
+#-----------
+time=34505398197
+mem_heap_B=72933056
+mem_heap_extra_B=12142200
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=82
+#-----------
+time=34609429171
+mem_heap_B=73146473
+mem_heap_extra_B=12177791
+mem_stacks_B=0
+heap_tree=peak
+n2: 73146473 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 73064832 0x10CF0C: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<long const, long> > >::allocate(unsigned long, void const*) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n1: 73064832 0x10CD21: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<long const, long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<long const, long> > >&, unsigned long) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n1: 73064832 0x10C7EC: std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_node() (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n1: 73064832 0x10BF86: std::_Rb_tree_node<std::pair<long const, long> >* std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n1: 73064832 0x10BC96: std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long&&>&&, std::tuple<>&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 73064832 0x10B9F0: std::map<long, long, std::less<long>, std::allocator<std::pair<long const, long> > >::operator[](long&&) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 73064832 0x10ABF5: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+ n0: 81641 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=83
+#-----------
+time=36591431535
+mem_heap_B=73194360
+mem_heap_extra_B=12183656
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=84
+#-----------
+time=200235069201
+mem_heap_B=73186168
+mem_heap_extra_B=12183648
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=85
+#-----------
+time=200560389658
+mem_heap_B=1547088
+mem_heap_extra_B=245272
+mem_stacks_B=0
+heap_tree=empty

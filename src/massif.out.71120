@@ -1,0 +1,2330 @@
+desc: (none)
+cmd: ./q-digest-profile --val 0 --in ../data/INPUT_query_rank_t_0.csv --eps 0.1 --univ 1522916 ../data/network_flows.csv rank
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=3214423
+mem_heap_B=72704
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=5614205
+mem_heap_B=919424
+mem_heap_extra_B=211704
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=8408823
+mem_heap_B=1935648
+mem_heap_extra_B=465760
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1935648 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 1862848 0x10B32E: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n3: 931616 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n3: 611040 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n3: 320960 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 160672 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 80512 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 40416 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 40416 in 3 places, all below massif's threshold (1.00%)
+       n1: 40064 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 40064 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 80128 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 40160 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 40160 in 2 places, all below massif's threshold (1.00%)
+       n1: 39968 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 39968 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 160256 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n2: 80224 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 40256 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 40256 in 2 places, all below massif's threshold (1.00%)
+       n1: 39968 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 39968 in 2 places, all below massif's threshold (1.00%)
+      n2: 80032 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 40096 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 40096 in 2 places, all below massif's threshold (1.00%)
+       n1: 39936 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 39936 in 2 places, all below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n2: 290048 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n2: 160384 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n2: 80352 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 40320 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 40320 in 2 places, all below massif's threshold (1.00%)
+       n1: 40032 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 40032 in 2 places, all below massif's threshold (1.00%)
+      n2: 80032 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 40096 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 40096 in 2 places, all below massif's threshold (1.00%)
+       n1: 39936 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 39936 in 2 places, all below massif's threshold (1.00%)
+     n2: 129664 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n2: 80160 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 40192 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 40192 in 2 places, all below massif's threshold (1.00%)
+       n1: 39968 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 39968 in 2 places, all below massif's threshold (1.00%)
+      n2: 49504 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 29632 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 29632 in 2 places, all below massif's threshold (1.00%)
+       n0: 19872 in 1 place, below massif's threshold (1.00%)
+    n0: 32 in 1 place, below massif's threshold (1.00%)
+   n2: 320544 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n2: 160384 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n2: 80352 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 40320 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 40320 in 2 places, all below massif's threshold (1.00%)
+      n1: 40032 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 40032 in 2 places, all below massif's threshold (1.00%)
+     n2: 80032 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 40096 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 40096 in 2 places, all below massif's threshold (1.00%)
+      n1: 39936 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 39936 in 2 places, all below massif's threshold (1.00%)
+    n2: 160160 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n2: 80160 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 40192 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 40192 in 2 places, all below massif's threshold (1.00%)
+      n1: 39968 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 39968 in 2 places, all below massif's threshold (1.00%)
+     n2: 80000 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 40096 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 40096 in 2 places, all below massif's threshold (1.00%)
+      n1: 39904 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 39904 in 2 places, all below massif's threshold (1.00%)
+   n0: 32 in 1 place, below massif's threshold (1.00%)
+  n2: 931200 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n2: 610752 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n2: 320800 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n2: 160576 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n2: 80480 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 40416 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 40416 in 3 places, all below massif's threshold (1.00%)
+       n1: 40064 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 40064 in 2 places, all below massif's threshold (1.00%)
+      n2: 80096 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 40128 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 40128 in 2 places, all below massif's threshold (1.00%)
+       n1: 39968 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 39968 in 2 places, all below massif's threshold (1.00%)
+     n2: 160224 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n2: 80192 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 40224 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 40224 in 2 places, all below massif's threshold (1.00%)
+       n1: 39968 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 39968 in 2 places, all below massif's threshold (1.00%)
+      n2: 80032 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 40096 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 40096 in 2 places, all below massif's threshold (1.00%)
+       n1: 39936 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 39936 in 2 places, all below massif's threshold (1.00%)
+    n2: 289952 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n2: 160320 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n2: 80288 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 40288 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 40288 in 2 places, all below massif's threshold (1.00%)
+       n1: 40000 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 40000 in 2 places, all below massif's threshold (1.00%)
+      n2: 80032 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 40096 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 40096 in 2 places, all below massif's threshold (1.00%)
+       n1: 39936 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 39936 in 2 places, all below massif's threshold (1.00%)
+     n2: 129632 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n2: 80160 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 40192 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 40192 in 2 places, all below massif's threshold (1.00%)
+       n1: 39968 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 39968 in 2 places, all below massif's threshold (1.00%)
+      n2: 49472 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 29600 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 29600 in 2 places, all below massif's threshold (1.00%)
+       n0: 19872 in 1 place, below massif's threshold (1.00%)
+   n2: 320448 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n2: 160320 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n2: 80288 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 40288 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 40288 in 2 places, all below massif's threshold (1.00%)
+      n1: 40000 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 40000 in 2 places, all below massif's threshold (1.00%)
+     n2: 80032 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 40096 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 40096 in 2 places, all below massif's threshold (1.00%)
+      n1: 39936 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 39936 in 2 places, all below massif's threshold (1.00%)
+    n2: 160128 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n2: 80160 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 40192 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 40192 in 2 places, all below massif's threshold (1.00%)
+      n1: 39968 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 39968 in 2 places, all below massif's threshold (1.00%)
+     n2: 79968 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 40064 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 40064 in 2 places, all below massif's threshold (1.00%)
+      n1: 39904 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 39904 in 2 places, all below massif's threshold (1.00%)
+  n0: 32 in 1 place, below massif's threshold (1.00%)
+ n1: 72704 0x490026A: pool (eh_alloc.cc:123)
+  n1: 72704 0x490026A: __static_initialization_and_destruction_0 (eh_alloc.cc:262)
+   n1: 72704 0x490026A: _GLOBAL__sub_I_eh_alloc.cc (eh_alloc.cc:338)
+    n1: 72704 0x400FE2D: call_init (in /usr/lib/ld-2.33.so)
+     n1: 72704 0x400FF1B: _dl_init (in /usr/lib/ld-2.33.so)
+      n1: 72704 0x40010C9: ??? (in /usr/lib/ld-2.33.so)
+       n1: 72704 0xA: ???
+        n1: 72704 0x1FFF000972: ???
+         n1: 72704 0x1FFF000985: ???
+          n1: 72704 0x1FFF00098B: ???
+           n1: 72704 0x1FFF00098D: ???
+            n1: 72704 0x1FFF000992: ???
+             n1: 72704 0x1FFF0009B3: ???
+              n1: 72704 0x1FFF0009B9: ???
+               n1: 72704 0x1FFF0009BD: ???
+                n1: 72704 0x1FFF0009C4: ???
+                 n1: 72704 0x1FFF0009CC: ???
+                  n0: 72704 0x1FFF0009E6: ???
+ n0: 96 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=4
+#-----------
+time=12740625
+mem_heap_B=3510848
+mem_heap_extra_B=859560
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=16656091
+mem_heap_B=4934656
+mem_heap_extra_B=1215512
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=19097913
+mem_heap_B=5822592
+mem_heap_extra_B=1437496
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=23081665
+mem_heap_B=7271232
+mem_heap_extra_B=1799656
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=25648809
+mem_heap_B=8204736
+mem_heap_extra_B=2033032
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=27702463
+mem_heap_B=8951520
+mem_heap_extra_B=2219728
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=31296651
+mem_heap_B=10258496
+mem_heap_extra_B=2546472
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=34634137
+mem_heap_B=11472128
+mem_heap_extra_B=2849880
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=37588935
+mem_heap_B=12546592
+mem_heap_extra_B=3118496
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=41830441
+mem_heap_B=14088960
+mem_heap_extra_B=3504088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=46071761
+mem_heap_B=15631264
+mem_heap_extra_B=3889664
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=48770819
+mem_heap_B=16612736
+mem_heap_extra_B=4135032
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=51855381
+mem_heap_B=17734400
+mem_heap_extra_B=4415448
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=56225367
+mem_heap_B=19323488
+mem_heap_extra_B=4812720
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=58796039
+mem_heap_B=20258272
+mem_heap_extra_B=5046416
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=60724095
+mem_heap_B=20959392
+mem_heap_extra_B=5221696
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=63294859
+mem_heap_B=21894208
+mem_heap_extra_B=5455400
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=65865681
+mem_heap_B=22829056
+mem_heap_extra_B=5689112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=70364351
+mem_heap_B=24464928
+mem_heap_extra_B=6098080
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=72935091
+mem_heap_B=25399744
+mem_heap_extra_B=6331784
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=74863167
+mem_heap_B=26100864
+mem_heap_extra_B=6507064
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=77433905
+mem_heap_B=27035680
+mem_heap_extra_B=6740768
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=81289989
+mem_heap_B=28437888
+mem_heap_extra_B=7091320
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=84503381
+mem_heap_B=29606400
+mem_heap_extra_B=7383448
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=87074051
+mem_heap_B=30541184
+mem_heap_extra_B=7617144
+mem_stacks_B=0
+heap_tree=detailed
+n2: 30541184 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 30468384 0x10B32E: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n3: 15234400 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n3: 9989888 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n3: 5244928 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 2622656 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 1311520 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 655936 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 655936 in 3 places, all below massif's threshold (1.00%)
+       n1: 655552 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 655552 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 1311104 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 655648 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 655648 in 3 places, all below massif's threshold (1.00%)
+       n1: 655456 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 655456 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 2622240 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 1311232 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 655712 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 655712 in 3 places, all below massif's threshold (1.00%)
+       n1: 655488 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 655488 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 1311008 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 655584 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 655584 in 2 places, all below massif's threshold (1.00%)
+       n1: 655424 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 655424 in 2 places, all below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n2: 4744928 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 2622368 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 1311296 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 655744 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 655744 in 3 places, all below massif's threshold (1.00%)
+       n1: 655520 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 655520 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 1311040 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 655616 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 655616 in 3 places, all below massif's threshold (1.00%)
+       n1: 655424 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 655424 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 2122560 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n2: 1311136 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 655680 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 655680 in 3 places, all below massif's threshold (1.00%)
+       n1: 655456 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 655456 in 2 places, all below massif's threshold (1.00%)
+      n2: 811424 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 483776 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 483776 in 2 places, all below massif's threshold (1.00%)
+       n0: 327648 in 1 place, below massif's threshold (1.00%)
+    n0: 32 in 1 place, below massif's threshold (1.00%)
+   n2: 5244480 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n3: 2622368 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 1311296 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 655744 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 655744 in 3 places, all below massif's threshold (1.00%)
+      n1: 655520 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 655520 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 1311040 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 655616 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 655616 in 3 places, all below massif's threshold (1.00%)
+      n1: 655424 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 655424 in 2 places, all below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n2: 2622112 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n2: 1311136 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 655680 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 655680 in 3 places, all below massif's threshold (1.00%)
+      n1: 655456 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 655456 in 2 places, all below massif's threshold (1.00%)
+     n2: 1310976 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 655552 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 655552 in 2 places, all below massif's threshold (1.00%)
+      n1: 655424 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 655424 in 2 places, all below massif's threshold (1.00%)
+   n0: 32 in 1 place, below massif's threshold (1.00%)
+  n2: 15233952 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n3: 9989600 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n3: 5244704 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 2622464 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 1311360 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 655808 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 655808 in 3 places, all below massif's threshold (1.00%)
+       n1: 655520 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 655520 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 1311072 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 655616 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 655616 in 3 places, all below massif's threshold (1.00%)
+       n1: 655456 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 655456 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 2622208 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 1311200 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 655712 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 655712 in 3 places, all below massif's threshold (1.00%)
+       n1: 655456 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 655456 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 1311008 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 655584 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 655584 in 2 places, all below massif's threshold (1.00%)
+       n1: 655424 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 655424 in 2 places, all below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n2: 4744864 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 2622336 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 1311296 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 655744 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 655744 in 3 places, all below massif's threshold (1.00%)
+       n1: 655520 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 655520 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 1311008 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 655584 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 655584 in 2 places, all below massif's threshold (1.00%)
+       n1: 655424 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 655424 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 2122528 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n2: 1311104 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 655648 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 655648 in 3 places, all below massif's threshold (1.00%)
+       n1: 655456 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 655456 in 2 places, all below massif's threshold (1.00%)
+      n2: 811424 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 483776 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 483776 in 2 places, all below massif's threshold (1.00%)
+       n0: 327648 in 1 place, below massif's threshold (1.00%)
+    n0: 32 in 1 place, below massif's threshold (1.00%)
+   n2: 5244352 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n2: 2622272 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 1311264 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 655744 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 655744 in 3 places, all below massif's threshold (1.00%)
+      n1: 655488 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 655488 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 1311008 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 655584 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 655584 in 2 places, all below massif's threshold (1.00%)
+      n1: 655424 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 655424 in 2 places, all below massif's threshold (1.00%)
+    n2: 2622080 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n2: 1311104 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 655648 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 655648 in 3 places, all below massif's threshold (1.00%)
+      n1: 655456 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 655456 in 2 places, all below massif's threshold (1.00%)
+     n2: 1310976 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 655552 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 655552 in 2 places, all below massif's threshold (1.00%)
+      n1: 655424 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 655424 in 2 places, all below massif's threshold (1.00%)
+  n0: 32 in 1 place, below massif's threshold (1.00%)
+ n0: 72800 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=29
+#-----------
+time=89387565
+mem_heap_B=31382464
+mem_heap_extra_B=7827464
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=92857755
+mem_heap_B=32644352
+mem_heap_extra_B=8142936
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=95171187
+mem_heap_B=33485600
+mem_heap_extra_B=8353248
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=97484629
+mem_heap_B=34326848
+mem_heap_extra_B=8563560
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=100954805
+mem_heap_B=35588736
+mem_heap_extra_B=8879032
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=103268313
+mem_heap_B=36430016
+mem_heap_extra_B=9089352
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=105581753
+mem_heap_B=37271264
+mem_heap_extra_B=9299664
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=107895181
+mem_heap_B=38112512
+mem_heap_extra_B=9509976
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=110208627
+mem_heap_B=38953760
+mem_heap_extra_B=9720288
+mem_stacks_B=0
+heap_tree=detailed
+n2: 38953760 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 38880960 0x10B32E: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n3: 19440608 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n3: 12747968 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n3: 6692832 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 3346528 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 1673376 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 836800 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 836800 in 3 places, all below massif's threshold (1.00%)
+       n1: 836544 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 836544 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 1673120 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 836672 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 836672 in 3 places, all below massif's threshold (1.00%)
+       n1: 836448 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 836448 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 3346272 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 1673248 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 836736 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 836736 in 3 places, all below massif's threshold (1.00%)
+       n1: 836480 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 836480 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 1673024 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 836672 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 836672 in 3 places, all below massif's threshold (1.00%)
+       n1: 836352 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 836352 in 2 places, all below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n2: 6055104 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 3346400 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 1673312 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 836768 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 836768 in 3 places, all below massif's threshold (1.00%)
+       n1: 836512 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 836512 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 1673056 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 836672 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 836672 in 3 places, all below massif's threshold (1.00%)
+       n1: 836384 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 836384 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 2708704 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 1673248 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 836736 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 836736 in 3 places, all below massif's threshold (1.00%)
+       n1: 836480 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 836480 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 1035456 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 617376 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 617376 in 2 places, all below massif's threshold (1.00%)
+       n0: 418080 in 1 place, below massif's threshold (1.00%)
+    n0: 32 in 1 place, below massif's threshold (1.00%)
+   n2: 6692608 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n3: 3346400 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 1673312 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 836768 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 836768 in 3 places, all below massif's threshold (1.00%)
+      n1: 836512 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 836512 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 1673056 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 836672 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 836672 in 3 places, all below massif's threshold (1.00%)
+      n1: 836384 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 836384 in 2 places, all below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n2: 3346208 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 1673248 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 836736 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 836736 in 3 places, all below massif's threshold (1.00%)
+      n1: 836480 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 836480 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 1672960 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 836608 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 836608 in 2 places, all below massif's threshold (1.00%)
+      n1: 836352 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 836352 in 2 places, all below massif's threshold (1.00%)
+   n0: 32 in 1 place, below massif's threshold (1.00%)
+  n2: 19440320 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n3: 12747808 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n3: 6692768 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 3346496 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 1673376 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 836800 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 836800 in 3 places, all below massif's threshold (1.00%)
+       n1: 836544 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 836544 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 1673088 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 836672 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 836672 in 3 places, all below massif's threshold (1.00%)
+       n1: 836416 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 836416 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 3346240 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 1673248 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 836736 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 836736 in 3 places, all below massif's threshold (1.00%)
+       n1: 836480 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 836480 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 1672992 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 836640 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 836640 in 3 places, all below massif's threshold (1.00%)
+       n1: 836352 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 836352 in 2 places, all below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n2: 6055008 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 3346400 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 1673312 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 836768 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 836768 in 3 places, all below massif's threshold (1.00%)
+       n1: 836512 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 836512 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 1673056 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 836672 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 836672 in 3 places, all below massif's threshold (1.00%)
+       n1: 836384 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 836384 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 2708608 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n2: 1673184 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 836704 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 836704 in 3 places, all below massif's threshold (1.00%)
+       n1: 836480 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 836480 in 2 places, all below massif's threshold (1.00%)
+      n2: 1035424 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 617376 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 617376 in 2 places, all below massif's threshold (1.00%)
+       n0: 418048 in 1 place, below massif's threshold (1.00%)
+    n0: 32 in 1 place, below massif's threshold (1.00%)
+   n2: 6692512 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n3: 3346400 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 1673312 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 836768 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 836768 in 3 places, all below massif's threshold (1.00%)
+      n1: 836512 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 836512 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 1673056 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 836672 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 836672 in 3 places, all below massif's threshold (1.00%)
+      n1: 836384 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 836384 in 2 places, all below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n2: 3346112 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n2: 1673184 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 836704 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 836704 in 3 places, all below massif's threshold (1.00%)
+      n1: 836480 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 836480 in 2 places, all below massif's threshold (1.00%)
+     n2: 1672928 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 836608 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 836608 in 2 places, all below massif's threshold (1.00%)
+      n1: 836320 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 836320 in 2 places, all below massif's threshold (1.00%)
+  n0: 32 in 1 place, below massif's threshold (1.00%)
+ n0: 72800 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=38
+#-----------
+time=113678811
+mem_heap_B=40215648
+mem_heap_extra_B=10035760
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=115992243
+mem_heap_B=41056896
+mem_heap_extra_B=10246072
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=118305665
+mem_heap_B=41898144
+mem_heap_extra_B=10456384
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=120619123
+mem_heap_B=42739392
+mem_heap_extra_B=10666696
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=122932551
+mem_heap_B=43580640
+mem_heap_extra_B=10877008
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=126402813
+mem_heap_B=44842560
+mem_heap_extra_B=11192488
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=128716331
+mem_heap_B=45683840
+mem_heap_extra_B=11402808
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=132186525
+mem_heap_B=46945728
+mem_heap_extra_B=11718280
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=135656805
+mem_heap_B=48207648
+mem_heap_extra_B=12033760
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=139126919
+mem_heap_B=49469504
+mem_heap_extra_B=12349224
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=141440343
+mem_heap_B=50310752
+mem_heap_extra_B=12559536
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=144910537
+mem_heap_B=51572640
+mem_heap_extra_B=12875008
+mem_stacks_B=0
+heap_tree=detailed
+n2: 51572640 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 51499840 0x10B32E: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n3: 25750080 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n3: 16885344 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n3: 8865024 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 4432640 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 2216448 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1108352 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1108352 in 3 places, all below massif's threshold (1.00%)
+       n1: 1108064 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1108064 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n3: 2216160 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1108160 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1108160 in 3 places, all below massif's threshold (1.00%)
+       n1: 1107968 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1107968 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n3: 4432352 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 2216256 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1108224 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1108224 in 3 places, all below massif's threshold (1.00%)
+       n1: 1108000 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1108000 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 2216064 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1108128 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1108128 in 3 places, all below massif's threshold (1.00%)
+       n1: 1107936 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1107936 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n3: 8020288 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 4432448 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 2216320 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1108288 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1108288 in 3 places, all below massif's threshold (1.00%)
+       n1: 1108000 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1108000 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 2216096 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1108128 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1108128 in 3 places, all below massif's threshold (1.00%)
+       n1: 1107968 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1107968 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 3587808 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 2216224 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1108224 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1108224 in 3 places, all below massif's threshold (1.00%)
+       n1: 1107968 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1107968 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 1371584 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 817728 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 817728 in 3 places, all below massif's threshold (1.00%)
+       n0: 553856 in 1 place, below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n0: 32 in 1 place, below massif's threshold (1.00%)
+   n3: 8864704 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n3: 4432448 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 2216320 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1108288 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1108288 in 3 places, all below massif's threshold (1.00%)
+      n1: 1108000 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1108000 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 2216096 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1108128 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1108128 in 3 places, all below massif's threshold (1.00%)
+      n1: 1107968 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1107968 in 2 places, all below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n2: 4432224 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 2216224 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1108224 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1108224 in 3 places, all below massif's threshold (1.00%)
+      n1: 1107968 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1107968 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 2216000 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1108128 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1108128 in 3 places, all below massif's threshold (1.00%)
+      n1: 1107872 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1107872 in 2 places, all below massif's threshold (1.00%)
+    n0: 32 in 1 place, below massif's threshold (1.00%)
+   n0: 32 in 1 place, below massif's threshold (1.00%)
+  n3: 25749728 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n3: 16885120 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n3: 8864896 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 4432576 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 2216448 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1108352 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1108352 in 3 places, all below massif's threshold (1.00%)
+       n1: 1108064 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1108064 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 2216096 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1108128 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1108128 in 3 places, all below massif's threshold (1.00%)
+       n1: 1107968 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1107968 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 4432288 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 2216224 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1108224 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1108224 in 3 places, all below massif's threshold (1.00%)
+       n1: 1107968 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1107968 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 2216064 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1108128 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1108128 in 3 places, all below massif's threshold (1.00%)
+       n1: 1107936 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1107936 in 2 places, all below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n2: 8020192 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 4432416 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 2216320 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1108288 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1108288 in 3 places, all below massif's threshold (1.00%)
+       n1: 1108000 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1108000 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 2216064 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1108128 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1108128 in 3 places, all below massif's threshold (1.00%)
+       n1: 1107936 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1107936 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 3587776 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 2216224 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1108224 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1108224 in 3 places, all below massif's threshold (1.00%)
+       n1: 1107968 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1107968 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 1371552 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 817728 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 817728 in 3 places, all below massif's threshold (1.00%)
+       n0: 553824 in 1 place, below massif's threshold (1.00%)
+    n0: 32 in 1 place, below massif's threshold (1.00%)
+   n2: 8864576 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n3: 4432416 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 2216320 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1108288 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1108288 in 3 places, all below massif's threshold (1.00%)
+      n1: 1108000 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1108000 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 2216064 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1108128 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1108128 in 3 places, all below massif's threshold (1.00%)
+      n1: 1107936 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1107936 in 2 places, all below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n2: 4432160 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 2216224 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1108224 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1108224 in 3 places, all below massif's threshold (1.00%)
+      n1: 1107968 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1107968 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 2215936 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1108096 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1108096 in 3 places, all below massif's threshold (1.00%)
+      n1: 1107840 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1107840 in 2 places, all below massif's threshold (1.00%)
+   n0: 32 in 1 place, below massif's threshold (1.00%)
+  n0: 32 in 1 place, below massif's threshold (1.00%)
+ n0: 72800 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=50
+#-----------
+time=146838629
+mem_heap_B=52273760
+mem_heap_extra_B=13050288
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=148766697
+mem_heap_B=52974880
+mem_heap_extra_B=13225568
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=150694785
+mem_heap_B=53676000
+mem_heap_extra_B=13400848
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=152622873
+mem_heap_B=54377120
+mem_heap_extra_B=13576128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=154550937
+mem_heap_B=55078240
+mem_heap_extra_B=13751408
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=156479031
+mem_heap_B=55779360
+mem_heap_extra_B=13926688
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=158407097
+mem_heap_B=56480480
+mem_heap_extra_B=14101968
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=160335165
+mem_heap_B=57181600
+mem_heap_extra_B=14277248
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=162263253
+mem_heap_B=57882720
+mem_heap_extra_B=14452528
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=164191341
+mem_heap_B=58583840
+mem_heap_extra_B=14627808
+mem_stacks_B=0
+heap_tree=detailed
+n2: 58583840 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 58511040 0x10B32E: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n3: 29255648 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n3: 19184064 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n3: 10071872 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 5036064 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 2518144 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1259168 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1259168 in 3 places, all below massif's threshold (1.00%)
+       n1: 1258944 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1258944 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n3: 2517888 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1259072 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1259072 in 3 places, all below massif's threshold (1.00%)
+       n1: 1258784 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1258784 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n3: 5035776 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 2518016 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1259136 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1259136 in 3 places, all below massif's threshold (1.00%)
+       n1: 1258848 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1258848 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 2517728 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1259040 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1259040 in 3 places, all below massif's threshold (1.00%)
+       n1: 1258688 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1258688 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n3: 9112160 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 5035904 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 2518080 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1259136 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1259136 in 3 places, all below massif's threshold (1.00%)
+       n1: 1258912 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1258912 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 2517792 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1259072 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1259072 in 3 places, all below massif's threshold (1.00%)
+       n1: 1258720 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1258720 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 4076224 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 2517984 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1259136 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1259136 in 3 places, all below massif's threshold (1.00%)
+       n1: 1258816 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1258816 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 1558240 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 929056 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 929056 in 3 places, all below massif's threshold (1.00%)
+       n0: 629184 in 1 place, below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n0: 32 in 1 place, below massif's threshold (1.00%)
+   n3: 10071552 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n3: 5035904 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 2518080 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1259136 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1259136 in 3 places, all below massif's threshold (1.00%)
+      n1: 1258912 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1258912 in 3 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 2517792 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1259072 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1259072 in 3 places, all below massif's threshold (1.00%)
+      n1: 1258720 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1258720 in 2 places, all below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n2: 5035616 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 2517984 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1259136 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1259136 in 3 places, all below massif's threshold (1.00%)
+      n1: 1258816 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1258816 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 2517632 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1258976 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1258976 in 3 places, all below massif's threshold (1.00%)
+      n1: 1258656 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1258656 in 2 places, all below massif's threshold (1.00%)
+    n0: 32 in 1 place, below massif's threshold (1.00%)
+   n0: 32 in 1 place, below massif's threshold (1.00%)
+  n3: 29255360 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n3: 19183936 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n3: 10071840 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 5036064 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 2518144 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1259168 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1259168 in 3 places, all below massif's threshold (1.00%)
+       n1: 1258944 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1258944 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n3: 2517888 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1259072 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1259072 in 3 places, all below massif's threshold (1.00%)
+       n1: 1258784 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1258784 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n3: 5035744 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 2518016 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1259136 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1259136 in 3 places, all below massif's threshold (1.00%)
+       n1: 1258848 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1258848 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 2517696 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1259040 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1259040 in 3 places, all below massif's threshold (1.00%)
+       n1: 1258656 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1258656 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n2: 9112064 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 5035904 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 2518080 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1259136 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1259136 in 3 places, all below massif's threshold (1.00%)
+       n1: 1258912 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1258912 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 2517792 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1259072 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1259072 in 3 places, all below massif's threshold (1.00%)
+       n1: 1258720 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1258720 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 4076160 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 2517952 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1259104 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1259104 in 3 places, all below massif's threshold (1.00%)
+       n1: 1258816 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1258816 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 1558208 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 929024 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 929024 in 3 places, all below massif's threshold (1.00%)
+       n0: 629184 in 1 place, below massif's threshold (1.00%)
+    n0: 32 in 1 place, below massif's threshold (1.00%)
+   n2: 10071392 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n3: 5035872 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 2518080 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1259136 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1259136 in 3 places, all below massif's threshold (1.00%)
+      n1: 1258912 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1258912 in 3 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 2517760 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1259072 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1259072 in 3 places, all below massif's threshold (1.00%)
+      n1: 1258688 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1258688 in 2 places, all below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n2: 5035520 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 2517920 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1259072 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1259072 in 3 places, all below massif's threshold (1.00%)
+      n1: 1258816 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1258816 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 2517600 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1258944 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1258944 in 3 places, all below massif's threshold (1.00%)
+      n1: 1258656 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1258656 in 2 places, all below massif's threshold (1.00%)
+   n0: 32 in 1 place, below massif's threshold (1.00%)
+  n0: 32 in 1 place, below massif's threshold (1.00%)
+ n0: 72800 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=60
+#-----------
+time=166119423
+mem_heap_B=59284960
+mem_heap_extra_B=14803088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=168047505
+mem_heap_B=59986080
+mem_heap_extra_B=14978368
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=169975569
+mem_heap_B=60687200
+mem_heap_extra_B=15153648
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=171903663
+mem_heap_B=61388320
+mem_heap_extra_B=15328928
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=173831743
+mem_heap_B=62089440
+mem_heap_extra_B=15504208
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=175759817
+mem_heap_B=62790560
+mem_heap_extra_B=15679488
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=177687905
+mem_heap_B=63491680
+mem_heap_extra_B=15854768
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=179615989
+mem_heap_B=64192800
+mem_heap_extra_B=16030048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=181544063
+mem_heap_B=64893920
+mem_heap_extra_B=16205328
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=183472145
+mem_heap_B=65595040
+mem_heap_extra_B=16380608
+mem_stacks_B=0
+heap_tree=detailed
+n2: 65595040 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 65522240 0x10B32E: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n3: 32761312 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n3: 21482848 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n3: 11278784 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 5639552 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 2819936 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1410112 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1410112 in 3 places, all below massif's threshold (1.00%)
+       n1: 1409792 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1409792 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n3: 2819584 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1409888 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1409888 in 3 places, all below massif's threshold (1.00%)
+       n1: 1409664 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1409664 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n3: 5639200 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 2819712 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1409952 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1409952 in 3 places, all below massif's threshold (1.00%)
+       n1: 1409728 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1409728 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 2819456 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1409856 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1409856 in 3 places, all below massif's threshold (1.00%)
+       n1: 1409600 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1409600 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n3: 10204032 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 5639328 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 2819776 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1410016 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1410016 in 3 places, all below massif's threshold (1.00%)
+       n1: 1409728 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1409728 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n3: 2819520 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1409888 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1409888 in 3 places, all below massif's threshold (1.00%)
+       n1: 1409600 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1409600 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 4564672 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 2819680 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1409952 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1409952 in 3 places, all below massif's threshold (1.00%)
+       n1: 1409696 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1409696 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 1744992 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1040288 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1040288 in 3 places, all below massif's threshold (1.00%)
+       n0: 704704 in 1 place, below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n0: 32 in 1 place, below massif's threshold (1.00%)
+   n3: 11278432 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n3: 5639328 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 2819776 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1410016 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1410016 in 3 places, all below massif's threshold (1.00%)
+      n1: 1409728 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1409728 in 3 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n3: 2819520 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1409888 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1409888 in 3 places, all below massif's threshold (1.00%)
+      n1: 1409600 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1409600 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n2: 5639072 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 2819680 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1409952 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1409952 in 3 places, all below massif's threshold (1.00%)
+      n1: 1409696 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1409696 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 2819392 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1409792 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1409792 in 3 places, all below massif's threshold (1.00%)
+      n1: 1409600 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1409600 in 2 places, all below massif's threshold (1.00%)
+    n0: 32 in 1 place, below massif's threshold (1.00%)
+   n0: 32 in 1 place, below massif's threshold (1.00%)
+  n3: 32760896 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n3: 21482592 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n3: 11278624 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 5639456 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 2819904 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1410112 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1410112 in 3 places, all below massif's threshold (1.00%)
+       n1: 1409760 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1409760 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n3: 2819520 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1409888 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1409888 in 3 places, all below massif's threshold (1.00%)
+       n1: 1409600 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1409600 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n3: 5639136 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 2819712 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1409952 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1409952 in 3 places, all below massif's threshold (1.00%)
+       n1: 1409728 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1409728 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 2819392 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1409792 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1409792 in 3 places, all below massif's threshold (1.00%)
+       n1: 1409600 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1409600 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n3: 10203936 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 5639328 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 2819776 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1410016 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1410016 in 3 places, all below massif's threshold (1.00%)
+       n1: 1409728 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1409728 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n3: 2819520 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1409888 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1409888 in 3 places, all below massif's threshold (1.00%)
+       n1: 1409600 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1409600 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 4564576 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 2819584 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1409888 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1409888 in 3 places, all below massif's threshold (1.00%)
+       n1: 1409664 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1409664 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 1744992 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1040288 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1040288 in 3 places, all below massif's threshold (1.00%)
+       n0: 704704 in 1 place, below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n0: 32 in 1 place, below massif's threshold (1.00%)
+   n2: 11278272 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n3: 5639296 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 2819776 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1410016 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1410016 in 3 places, all below massif's threshold (1.00%)
+      n1: 1409728 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1409728 in 3 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 2819488 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1409888 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1409888 in 3 places, all below massif's threshold (1.00%)
+      n1: 1409600 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1409600 in 2 places, all below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n2: 5638976 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 2819584 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1409888 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1409888 in 3 places, all below massif's threshold (1.00%)
+      n1: 1409664 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1409664 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 2819392 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1409792 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1409792 in 3 places, all below massif's threshold (1.00%)
+      n1: 1409600 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1409600 in 2 places, all below massif's threshold (1.00%)
+   n0: 32 in 1 place, below massif's threshold (1.00%)
+  n0: 32 in 1 place, below massif's threshold (1.00%)
+ n0: 72800 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=70
+#-----------
+time=185400239
+mem_heap_B=66296160
+mem_heap_extra_B=16555888
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=187328373
+mem_heap_B=66997312
+mem_heap_extra_B=16731176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=189256465
+mem_heap_B=67698432
+mem_heap_extra_B=16906456
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=191184541
+mem_heap_B=68399552
+mem_heap_extra_B=17081736
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=193112621
+mem_heap_B=69100672
+mem_heap_extra_B=17257016
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=195040713
+mem_heap_B=69801792
+mem_heap_extra_B=17432296
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=196968785
+mem_heap_B=70502912
+mem_heap_extra_B=17607576
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=198896881
+mem_heap_B=71204032
+mem_heap_extra_B=17782856
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=200824939
+mem_heap_B=71905152
+mem_heap_extra_B=17958136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=202753031
+mem_heap_B=72606272
+mem_heap_extra_B=18133416
+mem_stacks_B=0
+heap_tree=detailed
+n2: 72606272 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 72533472 0x10B32E: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n3: 36266848 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n3: 23781536 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n3: 12485568 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 6242912 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 3121568 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1560896 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1560896 in 3 places, all below massif's threshold (1.00%)
+       n1: 1560640 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1560640 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n3: 3121312 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1560768 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1560768 in 3 places, all below massif's threshold (1.00%)
+       n1: 1560512 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1560512 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n3: 6242624 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 3121440 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1560800 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1560800 in 3 places, all below massif's threshold (1.00%)
+       n1: 1560608 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1560608 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 3121152 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1560672 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1560672 in 3 places, all below massif's threshold (1.00%)
+       n1: 1560480 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1560480 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n3: 11295936 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 6242784 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 3121472 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1560832 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1560832 in 3 places, all below massif's threshold (1.00%)
+       n1: 1560608 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1560608 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n3: 3121280 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1560736 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1560736 in 3 places, all below massif's threshold (1.00%)
+       n1: 1560512 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1560512 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 5053120 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 3121344 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1560768 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1560768 in 3 places, all below massif's threshold (1.00%)
+       n1: 1560544 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1560544 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 1931776 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1151648 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1151648 in 3 places, all below massif's threshold (1.00%)
+       n0: 780128 in 1 place, below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n0: 32 in 1 place, below massif's threshold (1.00%)
+   n3: 12485280 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n3: 6242784 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 3121472 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1560832 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1560832 in 3 places, all below massif's threshold (1.00%)
+      n1: 1560608 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1560608 in 3 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n3: 3121280 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1560736 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1560736 in 3 places, all below massif's threshold (1.00%)
+      n1: 1560512 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1560512 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n2: 6242464 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 3121344 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1560768 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1560768 in 3 places, all below massif's threshold (1.00%)
+      n1: 1560544 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1560544 in 3 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 3121120 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1560672 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1560672 in 3 places, all below massif's threshold (1.00%)
+      n1: 1560448 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1560448 in 2 places, all below massif's threshold (1.00%)
+    n0: 32 in 1 place, below massif's threshold (1.00%)
+   n0: 32 in 1 place, below massif's threshold (1.00%)
+  n3: 36266592 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n3: 23781408 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n3: 12485472 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 6242848 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 3121536 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1560896 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1560896 in 3 places, all below massif's threshold (1.00%)
+       n1: 1560608 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1560608 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n3: 3121280 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1560736 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1560736 in 3 places, all below massif's threshold (1.00%)
+       n1: 1560512 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1560512 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n3: 6242592 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 3121408 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1560800 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1560800 in 3 places, all below massif's threshold (1.00%)
+       n1: 1560576 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1560576 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 3121152 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1560672 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1560672 in 3 places, all below massif's threshold (1.00%)
+       n1: 1560480 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1560480 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n3: 11295904 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 6242752 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 3121472 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1560832 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1560832 in 3 places, all below massif's threshold (1.00%)
+       n1: 1560608 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1560608 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n3: 3121248 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1560736 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1560736 in 3 places, all below massif's threshold (1.00%)
+       n1: 1560480 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1560480 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 5053120 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 3121344 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1560768 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1560768 in 3 places, all below massif's threshold (1.00%)
+       n1: 1560544 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1560544 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 1931776 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1151648 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1151648 in 3 places, all below massif's threshold (1.00%)
+       n0: 780128 in 1 place, below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n0: 32 in 1 place, below massif's threshold (1.00%)
+   n2: 12485152 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n3: 6242720 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 3121440 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1560800 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1560800 in 3 places, all below massif's threshold (1.00%)
+      n1: 1560608 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1560608 in 3 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n3: 3121248 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1560736 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1560736 in 3 places, all below massif's threshold (1.00%)
+      n1: 1560480 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1560480 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n2: 6242432 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 3121344 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1560768 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1560768 in 3 places, all below massif's threshold (1.00%)
+      n1: 1560544 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1560544 in 3 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 3121088 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1560672 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1560672 in 3 places, all below massif's threshold (1.00%)
+      n1: 1560416 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1560416 in 2 places, all below massif's threshold (1.00%)
+   n0: 32 in 1 place, below massif's threshold (1.00%)
+  n0: 32 in 1 place, below massif's threshold (1.00%)
+ n0: 72800 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=80
+#-----------
+time=204681121
+mem_heap_B=73307392
+mem_heap_extra_B=18308696
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=81
+#-----------
+time=206609197
+mem_heap_B=74008512
+mem_heap_extra_B=18483976
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=82
+#-----------
+time=208537293
+mem_heap_B=74709632
+mem_heap_extra_B=18659256
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=83
+#-----------
+time=210465449
+mem_heap_B=75410784
+mem_heap_extra_B=18834544
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=84
+#-----------
+time=212393531
+mem_heap_B=76111904
+mem_heap_extra_B=19009824
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=85
+#-----------
+time=214321591
+mem_heap_B=76813024
+mem_heap_extra_B=19185104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=86
+#-----------
+time=216249675
+mem_heap_B=77514144
+mem_heap_extra_B=19360384
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=87
+#-----------
+time=218177745
+mem_heap_B=78215264
+mem_heap_extra_B=19535664
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=88
+#-----------
+time=220105831
+mem_heap_B=78916384
+mem_heap_extra_B=19710944
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=89
+#-----------
+time=222033919
+mem_heap_B=79617504
+mem_heap_extra_B=19886224
+mem_stacks_B=0
+heap_tree=detailed
+n2: 79617504 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 79544704 0x10B32E: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n3: 39772512 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n3: 26080320 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n3: 13692448 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 6846336 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 3423264 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1711744 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1711744 in 3 places, all below massif's threshold (1.00%)
+       n1: 1711488 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1711488 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n3: 3423040 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1711648 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1711648 in 3 places, all below massif's threshold (1.00%)
+       n1: 1711360 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1711360 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n3: 6846080 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 3423168 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1711680 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1711680 in 3 places, all below massif's threshold (1.00%)
+       n1: 1711456 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1711456 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n3: 3422880 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1711584 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1711584 in 3 places, all below massif's threshold (1.00%)
+       n1: 1711264 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1711264 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n3: 12387840 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 6846208 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 3423200 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1711712 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1711712 in 3 places, all below massif's threshold (1.00%)
+       n1: 1711456 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1711456 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n3: 3422976 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1711584 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1711584 in 3 places, all below massif's threshold (1.00%)
+       n1: 1711360 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1711360 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n3: 5541600 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 3423104 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1711680 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1711680 in 3 places, all below massif's threshold (1.00%)
+       n1: 1711392 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1711392 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 2118464 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1262976 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1262976 in 3 places, all below massif's threshold (1.00%)
+       n0: 855488 in 1 place, below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n0: 32 in 1 place, below massif's threshold (1.00%)
+   n3: 13692160 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n3: 6846208 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 3423200 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1711712 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1711712 in 3 places, all below massif's threshold (1.00%)
+      n1: 1711456 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1711456 in 3 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n3: 3422976 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1711584 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1711584 in 3 places, all below massif's threshold (1.00%)
+      n1: 1711360 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1711360 in 3 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n3: 6845920 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 3423104 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1711680 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1711680 in 3 places, all below massif's threshold (1.00%)
+      n1: 1711392 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1711392 in 3 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 3422784 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1711552 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1711552 in 3 places, all below massif's threshold (1.00%)
+      n1: 1711232 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1711232 in 2 places, all below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n0: 32 in 1 place, below massif's threshold (1.00%)
+   n0: 32 in 1 place, below massif's threshold (1.00%)
+  n3: 39772160 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n3: 26080128 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n3: 13692320 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 6846272 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 3423264 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1711744 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1711744 in 3 places, all below massif's threshold (1.00%)
+       n1: 1711488 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1711488 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n3: 3422976 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1711584 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1711584 in 3 places, all below massif's threshold (1.00%)
+       n1: 1711360 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1711360 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n3: 6846016 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 3423104 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1711680 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1711680 in 3 places, all below massif's threshold (1.00%)
+       n1: 1711392 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1711392 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n3: 3422880 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1711584 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1711584 in 3 places, all below massif's threshold (1.00%)
+       n1: 1711264 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1711264 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n3: 12387776 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 6846144 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 3423200 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1711712 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1711712 in 3 places, all below massif's threshold (1.00%)
+       n1: 1711456 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1711456 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n3: 3422912 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1711584 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1711584 in 3 places, all below massif's threshold (1.00%)
+       n1: 1711296 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1711296 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n3: 5541600 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 3423104 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1711680 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1711680 in 3 places, all below massif's threshold (1.00%)
+       n1: 1711392 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1711392 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 2118464 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1262976 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1262976 in 3 places, all below massif's threshold (1.00%)
+       n0: 855488 in 1 place, below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n0: 32 in 1 place, below massif's threshold (1.00%)
+   n3: 13692000 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n3: 6846144 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 3423200 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1711712 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1711712 in 3 places, all below massif's threshold (1.00%)
+      n1: 1711456 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1711456 in 3 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n3: 3422912 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1711584 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1711584 in 3 places, all below massif's threshold (1.00%)
+      n1: 1711296 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1711296 in 2 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n2: 6845824 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 3423072 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1711680 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1711680 in 3 places, all below massif's threshold (1.00%)
+      n1: 1711360 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1711360 in 3 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 3422752 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1711520 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1711520 in 3 places, all below massif's threshold (1.00%)
+      n1: 1711232 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1711232 in 2 places, all below massif's threshold (1.00%)
+    n0: 32 in 1 place, below massif's threshold (1.00%)
+   n0: 32 in 1 place, below massif's threshold (1.00%)
+  n0: 32 in 1 place, below massif's threshold (1.00%)
+ n0: 72800 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=90
+#-----------
+time=223962009
+mem_heap_B=80318624
+mem_heap_extra_B=20061504
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=91
+#-----------
+time=225890183
+mem_heap_B=81019776
+mem_heap_extra_B=20236792
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=92
+#-----------
+time=227818325
+mem_heap_B=81720928
+mem_heap_extra_B=20412080
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=93
+#-----------
+time=229746415
+mem_heap_B=82422048
+mem_heap_extra_B=20587360
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=94
+#-----------
+time=231262482
+mem_heap_B=82973312
+mem_heap_extra_B=20725176
+mem_stacks_B=0
+heap_tree=peak
+n2: 82973312 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 82900512 0x10B32E: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+  n3: 41450368 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n3: 27180512 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n3: 14270016 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 7135072 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 3567616 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1783872 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1783872 in 3 places, all below massif's threshold (1.00%)
+       n1: 1783712 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1783712 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n3: 3567424 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1783840 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1783840 in 3 places, all below massif's threshold (1.00%)
+       n1: 1783552 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1783552 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n3: 7134912 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 3567584 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1783872 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1783872 in 3 places, all below massif's threshold (1.00%)
+       n1: 1783680 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1783680 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n3: 3567296 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1783840 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1783840 in 3 places, all below massif's threshold (1.00%)
+       n1: 1783424 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1783424 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n3: 12910464 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 7135040 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 3567616 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1783872 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1783872 in 3 places, all below massif's threshold (1.00%)
+       n1: 1783712 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1783712 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n3: 3567392 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1783840 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1783840 in 3 places, all below massif's threshold (1.00%)
+       n1: 1783520 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1783520 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n3: 5775392 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 3567584 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1783872 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1783872 in 3 places, all below massif's threshold (1.00%)
+       n1: 1783680 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1783680 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 2207776 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1316224 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1316224 in 3 places, all below massif's threshold (1.00%)
+       n0: 891552 in 1 place, below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n0: 32 in 1 place, below massif's threshold (1.00%)
+   n3: 14269824 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n3: 7135040 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 3567616 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1783872 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1783872 in 3 places, all below massif's threshold (1.00%)
+      n1: 1783712 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1783712 in 3 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n3: 3567392 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1783840 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1783840 in 3 places, all below massif's threshold (1.00%)
+      n1: 1783520 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1783520 in 3 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n3: 7134752 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 3567584 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1783872 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1783872 in 3 places, all below massif's threshold (1.00%)
+      n1: 1783680 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1783680 in 3 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 3567136 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1783744 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1783744 in 3 places, all below massif's threshold (1.00%)
+      n1: 1783392 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1783392 in 2 places, all below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n0: 32 in 1 place, below massif's threshold (1.00%)
+   n0: 32 in 1 place, below massif's threshold (1.00%)
+  n3: 41450112 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+   n3: 27180416 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n3: 14269984 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 7135072 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 3567616 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1783872 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1783872 in 3 places, all below massif's threshold (1.00%)
+       n1: 1783712 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1783712 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n3: 3567424 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1783840 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1783840 in 3 places, all below massif's threshold (1.00%)
+       n1: 1783552 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1783552 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n3: 7134880 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 3567584 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1783872 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1783872 in 3 places, all below massif's threshold (1.00%)
+       n1: 1783680 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1783680 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n3: 3567264 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1783808 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1783808 in 3 places, all below massif's threshold (1.00%)
+       n1: 1783424 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1783424 in 2 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n3: 12910400 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 7135040 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 3567616 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1783872 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1783872 in 3 places, all below massif's threshold (1.00%)
+       n1: 1783712 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1783712 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n3: 3567392 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1783840 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1783840 in 3 places, all below massif's threshold (1.00%)
+       n1: 1783520 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1783520 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n3: 5775328 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n3: 3567520 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1783872 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1783872 in 3 places, all below massif's threshold (1.00%)
+       n1: 1783616 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1783616 in 3 places, all below massif's threshold (1.00%)
+       n0: 32 in 1 place, below massif's threshold (1.00%)
+      n2: 2207776 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n1: 1316224 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+        n0: 1316224 in 3 places, all below massif's threshold (1.00%)
+       n0: 891552 in 1 place, below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n0: 32 in 1 place, below massif's threshold (1.00%)
+   n3: 14269664 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+    n3: 7135040 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 3567616 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1783872 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1783872 in 3 places, all below massif's threshold (1.00%)
+      n1: 1783712 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1783712 in 3 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n3: 3567392 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1783840 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1783840 in 3 places, all below massif's threshold (1.00%)
+      n1: 1783520 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1783520 in 3 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n0: 32 in 1 place, below massif's threshold (1.00%)
+    n2: 7134592 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+     n3: 3567488 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1783840 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1783840 in 3 places, all below massif's threshold (1.00%)
+      n1: 1783616 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1783616 in 3 places, all below massif's threshold (1.00%)
+      n0: 32 in 1 place, below massif's threshold (1.00%)
+     n2: 3567104 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+      n1: 1783744 0x10B3A5: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1783744 in 3 places, all below massif's threshold (1.00%)
+      n1: 1783360 0x10B3C4: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest-profile)
+       n0: 1783360 in 2 places, all below massif's threshold (1.00%)
+    n0: 32 in 1 place, below massif's threshold (1.00%)
+   n0: 32 in 1 place, below massif's threshold (1.00%)
+  n0: 32 in 1 place, below massif's threshold (1.00%)
+ n0: 72800 in 3 places, all below massif's threshold (1.00%)

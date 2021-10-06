@@ -1,0 +1,1749 @@
+desc: (none)
+cmd: ./q-digest-profile --val 0 --in ../data/INPUT_query_rank_t_0.csv --eps 0.1 --univ 1522916 ../data/network_flows.csv rank
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=176963278
+mem_heap_B=97548327
+mem_heap_extra_B=24366769
+mem_stacks_B=0
+heap_tree=peak
+n18: 97548327 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n5: 17430080 0x10CE51: QDigest::construct_tree(int, int) (q-digest.cpp:20)
+  n0: 12014400 in 20 places, all below massif's threshold (1.00%)
+  n1: 1353920 0x10D2A5: construct_tree (q-digest.cpp:28)
+   n1: 1353920 0x10D2A5: construct_tree (q-digest.cpp:28)
+    n1: 1353920 0x10D2A5: construct_tree (q-digest.cpp:29)
+     n1: 1353920 0x10D2A5: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 1353920 in 24 places, all below massif's threshold (1.00%)
+  n1: 1353920 0x10D2BF: construct_tree (q-digest.cpp:29)
+   n1: 1353920 0x10D2BF: construct_tree (q-digest.cpp:28)
+    n1: 1353920 0x10D2BF: construct_tree (q-digest.cpp:29)
+     n1: 1353920 0x10D2BF: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 1353920 in 24 places, all below massif's threshold (1.00%)
+  n1: 1353920 0x10D479: construct_tree (q-digest.cpp:28)
+   n1: 1353920 0x10D479: construct_tree (q-digest.cpp:28)
+    n1: 1353920 0x10D479: construct_tree (q-digest.cpp:28)
+     n1: 1353920 0x10D479: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+      n0: 1353920 in 24 places, all below massif's threshold (1.00%)
+  n1: 1353920 0x10D493: construct_tree (q-digest.cpp:29)
+   n1: 1353920 0x10D493: construct_tree (q-digest.cpp:28)
+    n1: 1353920 0x10D493: construct_tree (q-digest.cpp:28)
+     n1: 1353920 0x10D493: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+      n0: 1353920 in 24 places, all below massif's threshold (1.00%)
+ n1: 11890880 0x10CEAB: construct_tree (q-digest.cpp:20)
+  n1: 11890880 0x10CEAB: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+   n0: 11890880 in 24 places, all below massif's threshold (1.00%)
+ n1: 11890880 0x10D388: construct_tree (q-digest.cpp:20)
+  n1: 11890880 0x10D388: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+   n0: 11890880 in 24 places, all below massif's threshold (1.00%)
+ n1: 9574432 0x10CF11: construct_tree (q-digest.cpp:20)
+  n1: 9574432 0x10CF11: construct_tree (q-digest.cpp:28)
+   n1: 9574432 0x10CF11: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+    n0: 9574432 in 24 places, all below massif's threshold (1.00%)
+ n1: 9574432 0x10D1E2: construct_tree (q-digest.cpp:20)
+  n1: 9574432 0x10D1E2: construct_tree (q-digest.cpp:29)
+   n1: 9574432 0x10D1E2: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+    n0: 9574432 in 24 places, all below massif's threshold (1.00%)
+ n1: 4425920 0x10CF7A: construct_tree (q-digest.cpp:20)
+  n1: 4425920 0x10CF7A: construct_tree (q-digest.cpp:28)
+   n1: 4425920 0x10CF7A: construct_tree (q-digest.cpp:28)
+    n1: 4425920 0x10CF7A: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 4425920 in 24 places, all below massif's threshold (1.00%)
+ n1: 4425920 0x10D140: construct_tree (q-digest.cpp:20)
+  n1: 4425920 0x10D140: construct_tree (q-digest.cpp:29)
+   n1: 4425920 0x10D140: construct_tree (q-digest.cpp:28)
+    n1: 4425920 0x10D140: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 4425920 in 24 places, all below massif's threshold (1.00%)
+ n1: 4425920 0x10D3EF: construct_tree (q-digest.cpp:20)
+  n1: 4425920 0x10D3EF: construct_tree (q-digest.cpp:28)
+   n1: 4425920 0x10D3EF: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+    n0: 4425920 in 24 places, all below massif's threshold (1.00%)
+ n1: 4425920 0x10D54B: construct_tree (q-digest.cpp:20)
+  n1: 4425920 0x10D54B: construct_tree (q-digest.cpp:29)
+   n1: 4425920 0x10D54B: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+    n0: 4425920 in 24 places, all below massif's threshold (1.00%)
+ n1: 3830720 0x10D432: construct_tree (q-digest.cpp:20)
+  n1: 3830720 0x10D432: construct_tree (q-digest.cpp:28)
+   n1: 3830720 0x10D432: construct_tree (q-digest.cpp:28)
+    n1: 3830720 0x10D432: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 3830720 in 24 places, all below massif's threshold (1.00%)
+ n1: 3830720 0x10D4C4: construct_tree (q-digest.cpp:20)
+  n1: 3830720 0x10D4C4: construct_tree (q-digest.cpp:29)
+   n1: 3830720 0x10D4C4: construct_tree (q-digest.cpp:28)
+    n1: 3830720 0x10D4C4: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 3830720 in 24 places, all below massif's threshold (1.00%)
+ n0: 3698983 in 11 places, all below massif's threshold (1.00%)
+ n1: 1353920 0x10CFE4: construct_tree (q-digest.cpp:20)
+  n1: 1353920 0x10CFE4: construct_tree (q-digest.cpp:28)
+   n1: 1353920 0x10CFE4: construct_tree (q-digest.cpp:28)
+    n1: 1353920 0x10CFE4: construct_tree (q-digest.cpp:28)
+     n1: 1353920 0x10CFE4: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 1353920 in 24 places, all below massif's threshold (1.00%)
+ n1: 1353920 0x10D094: construct_tree (q-digest.cpp:20)
+  n1: 1353920 0x10D094: construct_tree (q-digest.cpp:29)
+   n1: 1353920 0x10D094: construct_tree (q-digest.cpp:28)
+    n1: 1353920 0x10D094: construct_tree (q-digest.cpp:28)
+     n1: 1353920 0x10D094: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 1353920 in 24 places, all below massif's threshold (1.00%)
+ n1: 1353920 0x10D24C: construct_tree (q-digest.cpp:20)
+  n1: 1353920 0x10D24C: construct_tree (q-digest.cpp:28)
+   n1: 1353920 0x10D24C: construct_tree (q-digest.cpp:29)
+    n1: 1353920 0x10D24C: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 1353920 in 24 places, all below massif's threshold (1.00%)
+ n1: 1353920 0x10D2F8: construct_tree (q-digest.cpp:20)
+  n1: 1353920 0x10D2F8: construct_tree (q-digest.cpp:29)
+   n1: 1353920 0x10D2F8: construct_tree (q-digest.cpp:29)
+    n1: 1353920 0x10D2F8: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 1353920 in 24 places, all below massif's threshold (1.00%)
+ n1: 1353920 0x10D594: construct_tree (q-digest.cpp:20)
+  n1: 1353920 0x10D594: construct_tree (q-digest.cpp:28)
+   n1: 1353920 0x10D594: construct_tree (q-digest.cpp:29)
+    n1: 1353920 0x10D594: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 1353920 in 24 places, all below massif's threshold (1.00%)
+ n1: 1353920 0x10D711: construct_tree (q-digest.cpp:20)
+  n1: 1353920 0x10D711: construct_tree (q-digest.cpp:29)
+   n1: 1353920 0x10D711: construct_tree (q-digest.cpp:29)
+    n1: 1353920 0x10D711: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 1353920 in 24 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=2
+#-----------
+time=388359219
+mem_heap_B=97548272
+mem_heap_extra_B=24366752
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=759934950
+mem_heap_B=97548325
+mem_heap_extra_B=24366771
+mem_stacks_B=0
+heap_tree=detailed
+n18: 97548325 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n5: 17430080 0x10CE51: QDigest::construct_tree(int, int) (q-digest.cpp:20)
+  n0: 12014400 in 20 places, all below massif's threshold (1.00%)
+  n1: 1353920 0x10D2A5: construct_tree (q-digest.cpp:28)
+   n1: 1353920 0x10D2A5: construct_tree (q-digest.cpp:28)
+    n1: 1353920 0x10D2A5: construct_tree (q-digest.cpp:29)
+     n1: 1353920 0x10D2A5: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 1353920 in 24 places, all below massif's threshold (1.00%)
+  n1: 1353920 0x10D2BF: construct_tree (q-digest.cpp:29)
+   n1: 1353920 0x10D2BF: construct_tree (q-digest.cpp:28)
+    n1: 1353920 0x10D2BF: construct_tree (q-digest.cpp:29)
+     n1: 1353920 0x10D2BF: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 1353920 in 24 places, all below massif's threshold (1.00%)
+  n1: 1353920 0x10D479: construct_tree (q-digest.cpp:28)
+   n1: 1353920 0x10D479: construct_tree (q-digest.cpp:28)
+    n1: 1353920 0x10D479: construct_tree (q-digest.cpp:28)
+     n1: 1353920 0x10D479: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+      n0: 1353920 in 24 places, all below massif's threshold (1.00%)
+  n1: 1353920 0x10D493: construct_tree (q-digest.cpp:29)
+   n1: 1353920 0x10D493: construct_tree (q-digest.cpp:28)
+    n1: 1353920 0x10D493: construct_tree (q-digest.cpp:28)
+     n1: 1353920 0x10D493: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+      n0: 1353920 in 24 places, all below massif's threshold (1.00%)
+ n1: 11890880 0x10CEAB: construct_tree (q-digest.cpp:20)
+  n1: 11890880 0x10CEAB: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+   n0: 11890880 in 24 places, all below massif's threshold (1.00%)
+ n1: 11890880 0x10D388: construct_tree (q-digest.cpp:20)
+  n1: 11890880 0x10D388: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+   n0: 11890880 in 24 places, all below massif's threshold (1.00%)
+ n1: 9574432 0x10CF11: construct_tree (q-digest.cpp:20)
+  n1: 9574432 0x10CF11: construct_tree (q-digest.cpp:28)
+   n1: 9574432 0x10CF11: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+    n0: 9574432 in 24 places, all below massif's threshold (1.00%)
+ n1: 9574432 0x10D1E2: construct_tree (q-digest.cpp:20)
+  n1: 9574432 0x10D1E2: construct_tree (q-digest.cpp:29)
+   n1: 9574432 0x10D1E2: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+    n0: 9574432 in 24 places, all below massif's threshold (1.00%)
+ n1: 4425920 0x10CF7A: construct_tree (q-digest.cpp:20)
+  n1: 4425920 0x10CF7A: construct_tree (q-digest.cpp:28)
+   n1: 4425920 0x10CF7A: construct_tree (q-digest.cpp:28)
+    n1: 4425920 0x10CF7A: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 4425920 in 24 places, all below massif's threshold (1.00%)
+ n1: 4425920 0x10D140: construct_tree (q-digest.cpp:20)
+  n1: 4425920 0x10D140: construct_tree (q-digest.cpp:29)
+   n1: 4425920 0x10D140: construct_tree (q-digest.cpp:28)
+    n1: 4425920 0x10D140: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 4425920 in 24 places, all below massif's threshold (1.00%)
+ n1: 4425920 0x10D3EF: construct_tree (q-digest.cpp:20)
+  n1: 4425920 0x10D3EF: construct_tree (q-digest.cpp:28)
+   n1: 4425920 0x10D3EF: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+    n0: 4425920 in 24 places, all below massif's threshold (1.00%)
+ n1: 4425920 0x10D54B: construct_tree (q-digest.cpp:20)
+  n1: 4425920 0x10D54B: construct_tree (q-digest.cpp:29)
+   n1: 4425920 0x10D54B: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+    n0: 4425920 in 24 places, all below massif's threshold (1.00%)
+ n1: 3830720 0x10D432: construct_tree (q-digest.cpp:20)
+  n1: 3830720 0x10D432: construct_tree (q-digest.cpp:28)
+   n1: 3830720 0x10D432: construct_tree (q-digest.cpp:28)
+    n1: 3830720 0x10D432: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 3830720 in 24 places, all below massif's threshold (1.00%)
+ n1: 3830720 0x10D4C4: construct_tree (q-digest.cpp:20)
+  n1: 3830720 0x10D4C4: construct_tree (q-digest.cpp:29)
+   n1: 3830720 0x10D4C4: construct_tree (q-digest.cpp:28)
+    n1: 3830720 0x10D4C4: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 3830720 in 24 places, all below massif's threshold (1.00%)
+ n0: 3698981 in 11 places, all below massif's threshold (1.00%)
+ n1: 1353920 0x10CFE4: construct_tree (q-digest.cpp:20)
+  n1: 1353920 0x10CFE4: construct_tree (q-digest.cpp:28)
+   n1: 1353920 0x10CFE4: construct_tree (q-digest.cpp:28)
+    n1: 1353920 0x10CFE4: construct_tree (q-digest.cpp:28)
+     n1: 1353920 0x10CFE4: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 1353920 in 24 places, all below massif's threshold (1.00%)
+ n1: 1353920 0x10D094: construct_tree (q-digest.cpp:20)
+  n1: 1353920 0x10D094: construct_tree (q-digest.cpp:29)
+   n1: 1353920 0x10D094: construct_tree (q-digest.cpp:28)
+    n1: 1353920 0x10D094: construct_tree (q-digest.cpp:28)
+     n1: 1353920 0x10D094: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 1353920 in 24 places, all below massif's threshold (1.00%)
+ n1: 1353920 0x10D24C: construct_tree (q-digest.cpp:20)
+  n1: 1353920 0x10D24C: construct_tree (q-digest.cpp:28)
+   n1: 1353920 0x10D24C: construct_tree (q-digest.cpp:29)
+    n1: 1353920 0x10D24C: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 1353920 in 24 places, all below massif's threshold (1.00%)
+ n1: 1353920 0x10D2F8: construct_tree (q-digest.cpp:20)
+  n1: 1353920 0x10D2F8: construct_tree (q-digest.cpp:29)
+   n1: 1353920 0x10D2F8: construct_tree (q-digest.cpp:29)
+    n1: 1353920 0x10D2F8: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 1353920 in 24 places, all below massif's threshold (1.00%)
+ n1: 1353920 0x10D594: construct_tree (q-digest.cpp:20)
+  n1: 1353920 0x10D594: construct_tree (q-digest.cpp:28)
+   n1: 1353920 0x10D594: construct_tree (q-digest.cpp:29)
+    n1: 1353920 0x10D594: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 1353920 in 24 places, all below massif's threshold (1.00%)
+ n1: 1353920 0x10D711: construct_tree (q-digest.cpp:20)
+  n1: 1353920 0x10D711: construct_tree (q-digest.cpp:29)
+   n1: 1353920 0x10D711: construct_tree (q-digest.cpp:29)
+    n1: 1353920 0x10D711: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 1353920 in 24 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=4
+#-----------
+time=1270615065
+mem_heap_B=94679272
+mem_heap_extra_B=23649504
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=1730952578
+mem_heap_B=92108848
+mem_heap_extra_B=23006896
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=2154986850
+mem_heap_B=92108848
+mem_heap_extra_B=23006896
+mem_stacks_B=0
+heap_tree=detailed
+n18: 92108848 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n5: 16296576 0x10CE51: QDigest::construct_tree(int, int) (q-digest.cpp:20)
+  n0: 11107840 in 20 places, all below massif's threshold (1.00%)
+  n1: 1297216 0x10D2A5: construct_tree (q-digest.cpp:28)
+   n1: 1297216 0x10D2A5: construct_tree (q-digest.cpp:28)
+    n1: 1297216 0x10D2A5: construct_tree (q-digest.cpp:29)
+     n1: 1297216 0x10D2A5: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 1297216 in 24 places, all below massif's threshold (1.00%)
+  n1: 1297216 0x10D2BF: construct_tree (q-digest.cpp:29)
+   n1: 1297216 0x10D2BF: construct_tree (q-digest.cpp:28)
+    n1: 1297216 0x10D2BF: construct_tree (q-digest.cpp:29)
+     n1: 1297216 0x10D2BF: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 1297216 in 24 places, all below massif's threshold (1.00%)
+  n1: 1297152 0x10D479: construct_tree (q-digest.cpp:28)
+   n1: 1297152 0x10D479: construct_tree (q-digest.cpp:28)
+    n1: 1297152 0x10D479: construct_tree (q-digest.cpp:28)
+     n1: 1297152 0x10D479: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+      n0: 1297152 in 24 places, all below massif's threshold (1.00%)
+  n1: 1297152 0x10D493: construct_tree (q-digest.cpp:29)
+   n1: 1297152 0x10D493: construct_tree (q-digest.cpp:28)
+    n1: 1297152 0x10D493: construct_tree (q-digest.cpp:28)
+     n1: 1297152 0x10D493: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+      n0: 1297152 in 24 places, all below massif's threshold (1.00%)
+ n1: 11090016 0x10CEAB: construct_tree (q-digest.cpp:20)
+  n1: 11090016 0x10CEAB: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+   n0: 11090016 in 24 places, all below massif's threshold (1.00%)
+ n1: 11090016 0x10D388: construct_tree (q-digest.cpp:20)
+  n1: 11090016 0x10D388: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+   n0: 11090016 in 24 places, all below massif's threshold (1.00%)
+ n1: 9010336 0x10CF11: construct_tree (q-digest.cpp:20)
+  n1: 9010336 0x10CF11: construct_tree (q-digest.cpp:28)
+   n1: 9010336 0x10CF11: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+    n0: 9010336 in 24 places, all below massif's threshold (1.00%)
+ n1: 9010336 0x10D1E2: construct_tree (q-digest.cpp:20)
+  n1: 9010336 0x10D1E2: construct_tree (q-digest.cpp:29)
+   n1: 9010336 0x10D1E2: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+    n0: 9010336 in 24 places, all below massif's threshold (1.00%)
+ n1: 4250336 0x10D3EF: construct_tree (q-digest.cpp:20)
+  n1: 4250336 0x10D3EF: construct_tree (q-digest.cpp:28)
+   n1: 4250336 0x10D3EF: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+    n0: 4250336 in 24 places, all below massif's threshold (1.00%)
+ n1: 4250336 0x10D54B: construct_tree (q-digest.cpp:20)
+  n1: 4250336 0x10D54B: construct_tree (q-digest.cpp:29)
+   n1: 4250336 0x10D54B: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+    n0: 4250336 in 24 places, all below massif's threshold (1.00%)
+ n1: 4249536 0x10CF7A: construct_tree (q-digest.cpp:20)
+  n1: 4249536 0x10CF7A: construct_tree (q-digest.cpp:28)
+   n1: 4249536 0x10CF7A: construct_tree (q-digest.cpp:28)
+    n1: 4249536 0x10CF7A: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 4249536 in 24 places, all below massif's threshold (1.00%)
+ n1: 4249536 0x10D140: construct_tree (q-digest.cpp:20)
+  n1: 4249536 0x10D140: construct_tree (q-digest.cpp:29)
+   n1: 4249536 0x10D140: construct_tree (q-digest.cpp:28)
+    n1: 4249536 0x10D140: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 4249536 in 24 places, all below massif's threshold (1.00%)
+ n1: 3678208 0x10D432: construct_tree (q-digest.cpp:20)
+  n1: 3678208 0x10D432: construct_tree (q-digest.cpp:28)
+   n1: 3678208 0x10D432: construct_tree (q-digest.cpp:28)
+    n1: 3678208 0x10D432: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 3678208 in 24 places, all below massif's threshold (1.00%)
+ n1: 3678208 0x10D4C4: construct_tree (q-digest.cpp:20)
+  n1: 3678208 0x10D4C4: construct_tree (q-digest.cpp:29)
+   n1: 3678208 0x10D4C4: construct_tree (q-digest.cpp:28)
+    n1: 3678208 0x10D4C4: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 3678208 in 24 places, all below massif's threshold (1.00%)
+ n0: 3471856 in 11 places, all below massif's threshold (1.00%)
+ n1: 1297280 0x10D24C: construct_tree (q-digest.cpp:20)
+  n1: 1297280 0x10D24C: construct_tree (q-digest.cpp:28)
+   n1: 1297280 0x10D24C: construct_tree (q-digest.cpp:29)
+    n1: 1297280 0x10D24C: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 1297280 in 24 places, all below massif's threshold (1.00%)
+ n1: 1297280 0x10D2F8: construct_tree (q-digest.cpp:20)
+  n1: 1297280 0x10D2F8: construct_tree (q-digest.cpp:29)
+   n1: 1297280 0x10D2F8: construct_tree (q-digest.cpp:29)
+    n1: 1297280 0x10D2F8: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 1297280 in 24 places, all below massif's threshold (1.00%)
+ n1: 1297280 0x10D594: construct_tree (q-digest.cpp:20)
+  n1: 1297280 0x10D594: construct_tree (q-digest.cpp:28)
+   n1: 1297280 0x10D594: construct_tree (q-digest.cpp:29)
+    n1: 1297280 0x10D594: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 1297280 in 24 places, all below massif's threshold (1.00%)
+ n1: 1297280 0x10D711: construct_tree (q-digest.cpp:20)
+  n1: 1297280 0x10D711: construct_tree (q-digest.cpp:29)
+   n1: 1297280 0x10D711: construct_tree (q-digest.cpp:29)
+    n1: 1297280 0x10D711: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 1297280 in 24 places, all below massif's threshold (1.00%)
+ n1: 1297216 0x10CFE4: construct_tree (q-digest.cpp:20)
+  n1: 1297216 0x10CFE4: construct_tree (q-digest.cpp:28)
+   n1: 1297216 0x10CFE4: construct_tree (q-digest.cpp:28)
+    n1: 1297216 0x10CFE4: construct_tree (q-digest.cpp:28)
+     n1: 1297216 0x10CFE4: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 1297216 in 24 places, all below massif's threshold (1.00%)
+ n1: 1297216 0x10D094: construct_tree (q-digest.cpp:20)
+  n1: 1297216 0x10D094: construct_tree (q-digest.cpp:29)
+   n1: 1297216 0x10D094: construct_tree (q-digest.cpp:28)
+    n1: 1297216 0x10D094: construct_tree (q-digest.cpp:28)
+     n1: 1297216 0x10D094: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 1297216 in 24 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=7
+#-----------
+time=2423682441
+mem_heap_B=89919534
+mem_heap_extra_B=22459562
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=2727733251
+mem_heap_B=89919520
+mem_heap_extra_B=22459560
+mem_stacks_B=0
+heap_tree=detailed
+n18: 89919520 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n5: 15905600 0x10CE51: QDigest::construct_tree(int, int) (q-digest.cpp:20)
+  n0: 10854912 in 20 places, all below massif's threshold (1.00%)
+  n1: 1262688 0x10D2A5: construct_tree (q-digest.cpp:28)
+   n1: 1262688 0x10D2A5: construct_tree (q-digest.cpp:28)
+    n1: 1262688 0x10D2A5: construct_tree (q-digest.cpp:29)
+     n1: 1262688 0x10D2A5: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 1262688 in 24 places, all below massif's threshold (1.00%)
+  n1: 1262688 0x10D2BF: construct_tree (q-digest.cpp:29)
+   n1: 1262688 0x10D2BF: construct_tree (q-digest.cpp:28)
+    n1: 1262688 0x10D2BF: construct_tree (q-digest.cpp:29)
+     n1: 1262688 0x10D2BF: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 1262688 in 24 places, all below massif's threshold (1.00%)
+  n1: 1262656 0x10D479: construct_tree (q-digest.cpp:28)
+   n1: 1262656 0x10D479: construct_tree (q-digest.cpp:28)
+    n1: 1262656 0x10D479: construct_tree (q-digest.cpp:28)
+     n1: 1262656 0x10D479: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+      n0: 1262656 in 24 places, all below massif's threshold (1.00%)
+  n1: 1262656 0x10D493: construct_tree (q-digest.cpp:29)
+   n1: 1262656 0x10D493: construct_tree (q-digest.cpp:28)
+    n1: 1262656 0x10D493: construct_tree (q-digest.cpp:28)
+     n1: 1262656 0x10D493: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+      n0: 1262656 in 24 places, all below massif's threshold (1.00%)
+ n1: 10839424 0x10CEAB: construct_tree (q-digest.cpp:20)
+  n1: 10839424 0x10CEAB: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+   n0: 10839424 in 24 places, all below massif's threshold (1.00%)
+ n1: 10839424 0x10D388: construct_tree (q-digest.cpp:20)
+  n1: 10839424 0x10D388: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+   n0: 10839424 in 24 places, all below massif's threshold (1.00%)
+ n1: 8807328 0x10CF11: construct_tree (q-digest.cpp:20)
+  n1: 8807328 0x10CF11: construct_tree (q-digest.cpp:28)
+   n1: 8807328 0x10CF11: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+    n0: 8807328 in 24 places, all below massif's threshold (1.00%)
+ n1: 8807328 0x10D1E2: construct_tree (q-digest.cpp:20)
+  n1: 8807328 0x10D1E2: construct_tree (q-digest.cpp:29)
+   n1: 8807328 0x10D1E2: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+    n0: 8807328 in 24 places, all below massif's threshold (1.00%)
+ n1: 4145728 0x10D3EF: construct_tree (q-digest.cpp:20)
+  n1: 4145728 0x10D3EF: construct_tree (q-digest.cpp:28)
+   n1: 4145728 0x10D3EF: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+    n0: 4145728 in 24 places, all below massif's threshold (1.00%)
+ n1: 4145728 0x10D54B: construct_tree (q-digest.cpp:20)
+  n1: 4145728 0x10D54B: construct_tree (q-digest.cpp:29)
+   n1: 4145728 0x10D54B: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+    n0: 4145728 in 24 places, all below massif's threshold (1.00%)
+ n1: 4145248 0x10CF7A: construct_tree (q-digest.cpp:20)
+  n1: 4145248 0x10CF7A: construct_tree (q-digest.cpp:28)
+   n1: 4145248 0x10CF7A: construct_tree (q-digest.cpp:28)
+    n1: 4145248 0x10CF7A: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 4145248 in 24 places, all below massif's threshold (1.00%)
+ n1: 4145248 0x10D140: construct_tree (q-digest.cpp:20)
+  n1: 4145248 0x10D140: construct_tree (q-digest.cpp:29)
+   n1: 4145248 0x10D140: construct_tree (q-digest.cpp:28)
+    n1: 4145248 0x10D140: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 4145248 in 24 places, all below massif's threshold (1.00%)
+ n1: 3587360 0x10D432: construct_tree (q-digest.cpp:20)
+  n1: 3587360 0x10D432: construct_tree (q-digest.cpp:28)
+   n1: 3587360 0x10D432: construct_tree (q-digest.cpp:28)
+    n1: 3587360 0x10D432: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 3587360 in 24 places, all below massif's threshold (1.00%)
+ n1: 3587360 0x10D4C4: construct_tree (q-digest.cpp:20)
+  n1: 3587360 0x10D4C4: construct_tree (q-digest.cpp:29)
+   n1: 3587360 0x10D4C4: construct_tree (q-digest.cpp:28)
+    n1: 3587360 0x10D4C4: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 3587360 in 24 places, all below massif's threshold (1.00%)
+ n0: 3387808 in 11 places, all below massif's threshold (1.00%)
+ n1: 1262688 0x10D24C: construct_tree (q-digest.cpp:20)
+  n1: 1262688 0x10D24C: construct_tree (q-digest.cpp:28)
+   n1: 1262688 0x10D24C: construct_tree (q-digest.cpp:29)
+    n1: 1262688 0x10D24C: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 1262688 in 24 places, all below massif's threshold (1.00%)
+ n1: 1262688 0x10D2F8: construct_tree (q-digest.cpp:20)
+  n1: 1262688 0x10D2F8: construct_tree (q-digest.cpp:29)
+   n1: 1262688 0x10D2F8: construct_tree (q-digest.cpp:29)
+    n1: 1262688 0x10D2F8: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 1262688 in 24 places, all below massif's threshold (1.00%)
+ n1: 1262656 0x10CFE4: construct_tree (q-digest.cpp:20)
+  n1: 1262656 0x10CFE4: construct_tree (q-digest.cpp:28)
+   n1: 1262656 0x10CFE4: construct_tree (q-digest.cpp:28)
+    n1: 1262656 0x10CFE4: construct_tree (q-digest.cpp:28)
+     n1: 1262656 0x10CFE4: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 1262656 in 24 places, all below massif's threshold (1.00%)
+ n1: 1262656 0x10D094: construct_tree (q-digest.cpp:20)
+  n1: 1262656 0x10D094: construct_tree (q-digest.cpp:29)
+   n1: 1262656 0x10D094: construct_tree (q-digest.cpp:28)
+    n1: 1262656 0x10D094: construct_tree (q-digest.cpp:28)
+     n1: 1262656 0x10D094: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 1262656 in 24 places, all below massif's threshold (1.00%)
+ n1: 1262624 0x10D594: construct_tree (q-digest.cpp:20)
+  n1: 1262624 0x10D594: construct_tree (q-digest.cpp:28)
+   n1: 1262624 0x10D594: construct_tree (q-digest.cpp:29)
+    n1: 1262624 0x10D594: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 1262624 in 24 places, all below massif's threshold (1.00%)
+ n1: 1262624 0x10D711: construct_tree (q-digest.cpp:20)
+  n1: 1262624 0x10D711: construct_tree (q-digest.cpp:29)
+   n1: 1262624 0x10D711: construct_tree (q-digest.cpp:29)
+    n1: 1262624 0x10D711: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 1262624 in 24 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=9
+#-----------
+time=3083803143
+mem_heap_B=86350768
+mem_heap_extra_B=21567376
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=3586003840
+mem_heap_B=86350785
+mem_heap_extra_B=21567391
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=3890016603
+mem_heap_B=83899565
+mem_heap_extra_B=20954571
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=4257020420
+mem_heap_B=83899522
+mem_heap_extra_B=20954574
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=4561032969
+mem_heap_B=81472304
+mem_heap_extra_B=20347760
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=4919647868
+mem_heap_B=81472329
+mem_heap_extra_B=20347767
+mem_stacks_B=0
+heap_tree=detailed
+n18: 81472329 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n5: 14560864 0x10CE51: QDigest::construct_tree(int, int) (q-digest.cpp:20)
+  n0: 10058528 in 20 places, all below massif's threshold (1.00%)
+  n1: 1125600 0x10D2A5: construct_tree (q-digest.cpp:28)
+   n1: 1125600 0x10D2A5: construct_tree (q-digest.cpp:28)
+    n1: 1125600 0x10D2A5: construct_tree (q-digest.cpp:29)
+     n1: 1125600 0x10D2A5: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 1125600 in 24 places, all below massif's threshold (1.00%)
+  n1: 1125600 0x10D2BF: construct_tree (q-digest.cpp:29)
+   n1: 1125600 0x10D2BF: construct_tree (q-digest.cpp:28)
+    n1: 1125600 0x10D2BF: construct_tree (q-digest.cpp:29)
+     n1: 1125600 0x10D2BF: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 1125600 in 24 places, all below massif's threshold (1.00%)
+  n1: 1125568 0x10D479: construct_tree (q-digest.cpp:28)
+   n1: 1125568 0x10D479: construct_tree (q-digest.cpp:28)
+    n1: 1125568 0x10D479: construct_tree (q-digest.cpp:28)
+     n1: 1125568 0x10D479: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+      n0: 1125568 in 24 places, all below massif's threshold (1.00%)
+  n1: 1125568 0x10D493: construct_tree (q-digest.cpp:29)
+   n1: 1125568 0x10D493: construct_tree (q-digest.cpp:28)
+    n1: 1125568 0x10D493: construct_tree (q-digest.cpp:28)
+     n1: 1125568 0x10D493: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+      n0: 1125568 in 24 places, all below massif's threshold (1.00%)
+ n1: 9951008 0x10CEAB: construct_tree (q-digest.cpp:20)
+  n1: 9951008 0x10CEAB: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+   n0: 9951008 in 24 places, all below massif's threshold (1.00%)
+ n1: 9951008 0x10D388: construct_tree (q-digest.cpp:20)
+  n1: 9951008 0x10D388: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+   n0: 9951008 in 24 places, all below massif's threshold (1.00%)
+ n1: 8007904 0x10CF11: construct_tree (q-digest.cpp:20)
+  n1: 8007904 0x10CF11: construct_tree (q-digest.cpp:28)
+   n1: 8007904 0x10CF11: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+    n0: 8007904 in 24 places, all below massif's threshold (1.00%)
+ n1: 8007904 0x10D1E2: construct_tree (q-digest.cpp:20)
+  n1: 8007904 0x10D1E2: construct_tree (q-digest.cpp:29)
+   n1: 8007904 0x10D1E2: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+    n0: 8007904 in 24 places, all below massif's threshold (1.00%)
+ n1: 3688928 0x10D3EF: construct_tree (q-digest.cpp:20)
+  n1: 3688928 0x10D3EF: construct_tree (q-digest.cpp:28)
+   n1: 3688928 0x10D3EF: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+    n0: 3688928 in 24 places, all below massif's threshold (1.00%)
+ n1: 3688928 0x10D54B: construct_tree (q-digest.cpp:20)
+  n1: 3688928 0x10D54B: construct_tree (q-digest.cpp:29)
+   n1: 3688928 0x10D54B: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+    n0: 3688928 in 24 places, all below massif's threshold (1.00%)
+ n1: 3688832 0x10CF7A: construct_tree (q-digest.cpp:20)
+  n1: 3688832 0x10CF7A: construct_tree (q-digest.cpp:28)
+   n1: 3688832 0x10CF7A: construct_tree (q-digest.cpp:28)
+    n1: 3688832 0x10CF7A: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 3688832 in 24 places, all below massif's threshold (1.00%)
+ n1: 3688832 0x10D140: construct_tree (q-digest.cpp:20)
+  n1: 3688832 0x10D140: construct_tree (q-digest.cpp:29)
+   n1: 3688832 0x10D140: construct_tree (q-digest.cpp:28)
+    n1: 3688832 0x10D140: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 3688832 in 24 places, all below massif's threshold (1.00%)
+ n1: 3192032 0x10D432: construct_tree (q-digest.cpp:20)
+  n1: 3192032 0x10D432: construct_tree (q-digest.cpp:28)
+   n1: 3192032 0x10D432: construct_tree (q-digest.cpp:28)
+    n1: 3192032 0x10D432: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 3192032 in 24 places, all below massif's threshold (1.00%)
+ n1: 3192032 0x10D4C4: construct_tree (q-digest.cpp:20)
+  n1: 3192032 0x10D4C4: construct_tree (q-digest.cpp:29)
+   n1: 3192032 0x10D4C4: construct_tree (q-digest.cpp:28)
+    n1: 3192032 0x10D4C4: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 3192032 in 24 places, all below massif's threshold (1.00%)
+ n0: 3100521 in 11 places, all below massif's threshold (1.00%)
+ n1: 1125632 0x10D24C: construct_tree (q-digest.cpp:20)
+  n1: 1125632 0x10D24C: construct_tree (q-digest.cpp:28)
+   n1: 1125632 0x10D24C: construct_tree (q-digest.cpp:29)
+    n1: 1125632 0x10D24C: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 1125632 in 24 places, all below massif's threshold (1.00%)
+ n1: 1125632 0x10D2F8: construct_tree (q-digest.cpp:20)
+  n1: 1125632 0x10D2F8: construct_tree (q-digest.cpp:29)
+   n1: 1125632 0x10D2F8: construct_tree (q-digest.cpp:29)
+    n1: 1125632 0x10D2F8: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 1125632 in 24 places, all below massif's threshold (1.00%)
+ n1: 1125632 0x10D594: construct_tree (q-digest.cpp:20)
+  n1: 1125632 0x10D594: construct_tree (q-digest.cpp:28)
+   n1: 1125632 0x10D594: construct_tree (q-digest.cpp:29)
+    n1: 1125632 0x10D594: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 1125632 in 24 places, all below massif's threshold (1.00%)
+ n1: 1125632 0x10D711: construct_tree (q-digest.cpp:20)
+  n1: 1125632 0x10D711: construct_tree (q-digest.cpp:29)
+   n1: 1125632 0x10D711: construct_tree (q-digest.cpp:29)
+    n1: 1125632 0x10D711: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 1125632 in 24 places, all below massif's threshold (1.00%)
+ n1: 1125504 0x10CFE4: construct_tree (q-digest.cpp:20)
+  n1: 1125504 0x10CFE4: construct_tree (q-digest.cpp:28)
+   n1: 1125504 0x10CFE4: construct_tree (q-digest.cpp:28)
+    n1: 1125504 0x10CFE4: construct_tree (q-digest.cpp:28)
+     n1: 1125504 0x10CFE4: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 1125504 in 24 places, all below massif's threshold (1.00%)
+ n1: 1125504 0x10D094: construct_tree (q-digest.cpp:20)
+  n1: 1125504 0x10D094: construct_tree (q-digest.cpp:29)
+   n1: 1125504 0x10D094: construct_tree (q-digest.cpp:28)
+    n1: 1125504 0x10D094: construct_tree (q-digest.cpp:28)
+     n1: 1125504 0x10D094: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 1125504 in 24 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=15
+#-----------
+time=5333449251
+mem_heap_B=78711664
+mem_heap_extra_B=19657600
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=5756318959
+mem_heap_B=76046896
+mem_heap_extra_B=18991408
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=6051887015
+mem_heap_B=76046896
+mem_heap_extra_B=18991408
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=6585870884
+mem_heap_B=73572464
+mem_heap_extra_B=18372800
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=7019237971
+mem_heap_B=70811810
+mem_heap_extra_B=17682646
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=7433039256
+mem_heap_B=70811821
+mem_heap_extra_B=17682635
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=7675727815
+mem_heap_B=68908067
+mem_heap_extra_B=17206709
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=8081087527
+mem_heap_B=68908016
+mem_heap_extra_B=17206688
+mem_stacks_B=0
+heap_tree=detailed
+n18: 68908016 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n5: 12568512 0x10CE51: QDigest::construct_tree(int, int) (q-digest.cpp:20)
+  n0: 8883264 in 20 places, all below massif's threshold (1.00%)
+  n1: 921408 0x10D2A5: construct_tree (q-digest.cpp:28)
+   n1: 921408 0x10D2A5: construct_tree (q-digest.cpp:28)
+    n1: 921408 0x10D2A5: construct_tree (q-digest.cpp:29)
+     n1: 921408 0x10D2A5: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 921408 in 24 places, all below massif's threshold (1.00%)
+  n1: 921408 0x10D2BF: construct_tree (q-digest.cpp:29)
+   n1: 921408 0x10D2BF: construct_tree (q-digest.cpp:28)
+    n1: 921408 0x10D2BF: construct_tree (q-digest.cpp:29)
+     n1: 921408 0x10D2BF: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 921408 in 24 places, all below massif's threshold (1.00%)
+  n1: 921216 0x10D479: construct_tree (q-digest.cpp:28)
+   n1: 921216 0x10D479: construct_tree (q-digest.cpp:28)
+    n1: 921216 0x10D479: construct_tree (q-digest.cpp:28)
+     n1: 921216 0x10D479: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+      n0: 921216 in 24 places, all below massif's threshold (1.00%)
+  n1: 921216 0x10D493: construct_tree (q-digest.cpp:29)
+   n1: 921216 0x10D493: construct_tree (q-digest.cpp:28)
+    n1: 921216 0x10D493: construct_tree (q-digest.cpp:28)
+     n1: 921216 0x10D493: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+      n0: 921216 in 24 places, all below massif's threshold (1.00%)
+ n1: 8634624 0x10CEAB: construct_tree (q-digest.cpp:20)
+  n1: 8634624 0x10CEAB: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+   n0: 8634624 in 24 places, all below massif's threshold (1.00%)
+ n1: 8634624 0x10D388: construct_tree (q-digest.cpp:20)
+  n1: 8634624 0x10D388: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+   n0: 8634624 in 24 places, all below massif's threshold (1.00%)
+ n1: 6819712 0x10CF11: construct_tree (q-digest.cpp:20)
+  n1: 6819712 0x10CF11: construct_tree (q-digest.cpp:28)
+   n1: 6819712 0x10CF11: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+    n0: 6819712 in 24 places, all below massif's threshold (1.00%)
+ n1: 6819712 0x10D1E2: construct_tree (q-digest.cpp:20)
+  n1: 6819712 0x10D1E2: construct_tree (q-digest.cpp:29)
+   n1: 6819712 0x10D1E2: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+    n0: 6819712 in 24 places, all below massif's threshold (1.00%)
+ n1: 3006464 0x10D3EF: construct_tree (q-digest.cpp:20)
+  n1: 3006464 0x10D3EF: construct_tree (q-digest.cpp:28)
+   n1: 3006464 0x10D3EF: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+    n0: 3006464 in 24 places, all below massif's threshold (1.00%)
+ n1: 3006464 0x10D54B: construct_tree (q-digest.cpp:20)
+  n1: 3006464 0x10D54B: construct_tree (q-digest.cpp:29)
+   n1: 3006464 0x10D54B: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+    n0: 3006464 in 24 places, all below massif's threshold (1.00%)
+ n1: 3006368 0x10CF7A: construct_tree (q-digest.cpp:20)
+  n1: 3006368 0x10CF7A: construct_tree (q-digest.cpp:28)
+   n1: 3006368 0x10CF7A: construct_tree (q-digest.cpp:28)
+    n1: 3006368 0x10CF7A: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 3006368 in 24 places, all below massif's threshold (1.00%)
+ n1: 3006368 0x10D140: construct_tree (q-digest.cpp:20)
+  n1: 3006368 0x10D140: construct_tree (q-digest.cpp:29)
+   n1: 3006368 0x10D140: construct_tree (q-digest.cpp:28)
+    n1: 3006368 0x10D140: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 3006368 in 24 places, all below massif's threshold (1.00%)
+ n0: 2673968 in 11 places, all below massif's threshold (1.00%)
+ n1: 2601120 0x10D432: construct_tree (q-digest.cpp:20)
+  n1: 2601120 0x10D432: construct_tree (q-digest.cpp:28)
+   n1: 2601120 0x10D432: construct_tree (q-digest.cpp:28)
+    n1: 2601120 0x10D432: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 2601120 in 24 places, all below massif's threshold (1.00%)
+ n1: 2601120 0x10D4C4: construct_tree (q-digest.cpp:20)
+  n1: 2601120 0x10D4C4: construct_tree (q-digest.cpp:29)
+   n1: 2601120 0x10D4C4: construct_tree (q-digest.cpp:28)
+    n1: 2601120 0x10D4C4: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 2601120 in 24 places, all below massif's threshold (1.00%)
+ n1: 921600 0x10D24C: construct_tree (q-digest.cpp:20)
+  n1: 921600 0x10D24C: construct_tree (q-digest.cpp:28)
+   n1: 921600 0x10D24C: construct_tree (q-digest.cpp:29)
+    n1: 921600 0x10D24C: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 921600 in 24 places, all below massif's threshold (1.00%)
+ n1: 921600 0x10D2F8: construct_tree (q-digest.cpp:20)
+  n1: 921600 0x10D2F8: construct_tree (q-digest.cpp:29)
+   n1: 921600 0x10D2F8: construct_tree (q-digest.cpp:29)
+    n1: 921600 0x10D2F8: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 921600 in 24 places, all below massif's threshold (1.00%)
+ n1: 921536 0x10D594: construct_tree (q-digest.cpp:20)
+  n1: 921536 0x10D594: construct_tree (q-digest.cpp:28)
+   n1: 921536 0x10D594: construct_tree (q-digest.cpp:29)
+    n1: 921536 0x10D594: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 921536 in 24 places, all below massif's threshold (1.00%)
+ n1: 921536 0x10D711: construct_tree (q-digest.cpp:20)
+  n1: 921536 0x10D711: construct_tree (q-digest.cpp:29)
+   n1: 921536 0x10D711: construct_tree (q-digest.cpp:29)
+    n1: 921536 0x10D711: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 921536 in 24 places, all below massif's threshold (1.00%)
+ n1: 921344 0x10CFE4: construct_tree (q-digest.cpp:20)
+  n1: 921344 0x10CFE4: construct_tree (q-digest.cpp:28)
+   n1: 921344 0x10CFE4: construct_tree (q-digest.cpp:28)
+    n1: 921344 0x10CFE4: construct_tree (q-digest.cpp:28)
+     n1: 921344 0x10CFE4: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 921344 in 24 places, all below massif's threshold (1.00%)
+ n1: 921344 0x10D094: construct_tree (q-digest.cpp:20)
+  n1: 921344 0x10D094: construct_tree (q-digest.cpp:29)
+   n1: 921344 0x10D094: construct_tree (q-digest.cpp:28)
+    n1: 921344 0x10D094: construct_tree (q-digest.cpp:28)
+     n1: 921344 0x10D094: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 921344 in 24 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=23
+#-----------
+time=8389506293
+mem_heap_B=65481584
+mem_heap_extra_B=16350080
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=8693524379
+mem_heap_B=65481584
+mem_heap_extra_B=16350080
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=9098882810
+mem_heap_B=63102064
+mem_heap_extra_B=15755200
+mem_stacks_B=0
+heap_tree=detailed
+n18: 63102064 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n5: 11634560 0x10CE51: QDigest::construct_tree(int, int) (q-digest.cpp:20)
+  n0: 8292928 in 20 places, all below massif's threshold (1.00%)
+  n1: 835456 0x10D2A5: construct_tree (q-digest.cpp:28)
+   n1: 835456 0x10D2A5: construct_tree (q-digest.cpp:28)
+    n1: 835456 0x10D2A5: construct_tree (q-digest.cpp:29)
+     n1: 835456 0x10D2A5: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 835456 in 24 places, all below massif's threshold (1.00%)
+  n1: 835456 0x10D2BF: construct_tree (q-digest.cpp:29)
+   n1: 835456 0x10D2BF: construct_tree (q-digest.cpp:28)
+    n1: 835456 0x10D2BF: construct_tree (q-digest.cpp:29)
+     n1: 835456 0x10D2BF: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 835456 in 24 places, all below massif's threshold (1.00%)
+  n1: 835360 0x10D479: construct_tree (q-digest.cpp:28)
+   n1: 835360 0x10D479: construct_tree (q-digest.cpp:28)
+    n1: 835360 0x10D479: construct_tree (q-digest.cpp:28)
+     n1: 835360 0x10D479: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+      n0: 835360 in 24 places, all below massif's threshold (1.00%)
+  n1: 835360 0x10D493: construct_tree (q-digest.cpp:29)
+   n1: 835360 0x10D493: construct_tree (q-digest.cpp:28)
+    n1: 835360 0x10D493: construct_tree (q-digest.cpp:28)
+     n1: 835360 0x10D493: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+      n0: 835360 in 24 places, all below massif's threshold (1.00%)
+ n1: 7988512 0x10CEAB: construct_tree (q-digest.cpp:20)
+  n1: 7988512 0x10CEAB: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+   n0: 7988512 in 24 places, all below massif's threshold (1.00%)
+ n1: 7988512 0x10D388: construct_tree (q-digest.cpp:20)
+  n1: 7988512 0x10D388: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+   n0: 7988512 in 24 places, all below massif's threshold (1.00%)
+ n1: 6248832 0x10CF11: construct_tree (q-digest.cpp:20)
+  n1: 6248832 0x10CF11: construct_tree (q-digest.cpp:28)
+   n1: 6248832 0x10CF11: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+    n0: 6248832 in 24 places, all below massif's threshold (1.00%)
+ n1: 6248832 0x10D1E2: construct_tree (q-digest.cpp:20)
+  n1: 6248832 0x10D1E2: construct_tree (q-digest.cpp:29)
+   n1: 6248832 0x10D1E2: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+    n0: 6248832 in 24 places, all below massif's threshold (1.00%)
+ n1: 2704544 0x10D3EF: construct_tree (q-digest.cpp:20)
+  n1: 2704544 0x10D3EF: construct_tree (q-digest.cpp:28)
+   n1: 2704544 0x10D3EF: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+    n0: 2704544 in 24 places, all below massif's threshold (1.00%)
+ n1: 2704544 0x10D54B: construct_tree (q-digest.cpp:20)
+  n1: 2704544 0x10D54B: construct_tree (q-digest.cpp:29)
+   n1: 2704544 0x10D54B: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+    n0: 2704544 in 24 places, all below massif's threshold (1.00%)
+ n1: 2704352 0x10CF7A: construct_tree (q-digest.cpp:20)
+  n1: 2704352 0x10CF7A: construct_tree (q-digest.cpp:28)
+   n1: 2704352 0x10CF7A: construct_tree (q-digest.cpp:28)
+    n1: 2704352 0x10CF7A: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 2704352 in 24 places, all below massif's threshold (1.00%)
+ n1: 2704352 0x10D140: construct_tree (q-digest.cpp:20)
+  n1: 2704352 0x10D140: construct_tree (q-digest.cpp:29)
+   n1: 2704352 0x10D140: construct_tree (q-digest.cpp:28)
+    n1: 2704352 0x10D140: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 2704352 in 24 places, all below massif's threshold (1.00%)
+ n0: 2479856 in 11 places, all below massif's threshold (1.00%)
+ n1: 2340832 0x10D432: construct_tree (q-digest.cpp:20)
+  n1: 2340832 0x10D432: construct_tree (q-digest.cpp:28)
+   n1: 2340832 0x10D432: construct_tree (q-digest.cpp:28)
+    n1: 2340832 0x10D432: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 2340832 in 24 places, all below massif's threshold (1.00%)
+ n1: 2340832 0x10D4C4: construct_tree (q-digest.cpp:20)
+  n1: 2340832 0x10D4C4: construct_tree (q-digest.cpp:29)
+   n1: 2340832 0x10D4C4: construct_tree (q-digest.cpp:28)
+    n1: 2340832 0x10D4C4: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 2340832 in 24 places, all below massif's threshold (1.00%)
+ n1: 835712 0x10D24C: construct_tree (q-digest.cpp:20)
+  n1: 835712 0x10D24C: construct_tree (q-digest.cpp:28)
+   n1: 835712 0x10D24C: construct_tree (q-digest.cpp:29)
+    n1: 835712 0x10D24C: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 835712 in 24 places, all below massif's threshold (1.00%)
+ n1: 835712 0x10D2F8: construct_tree (q-digest.cpp:20)
+  n1: 835712 0x10D2F8: construct_tree (q-digest.cpp:29)
+   n1: 835712 0x10D2F8: construct_tree (q-digest.cpp:29)
+    n1: 835712 0x10D2F8: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 835712 in 24 places, all below massif's threshold (1.00%)
+ n1: 835712 0x10D594: construct_tree (q-digest.cpp:20)
+  n1: 835712 0x10D594: construct_tree (q-digest.cpp:28)
+   n1: 835712 0x10D594: construct_tree (q-digest.cpp:29)
+    n1: 835712 0x10D594: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 835712 in 24 places, all below massif's threshold (1.00%)
+ n1: 835712 0x10D711: construct_tree (q-digest.cpp:20)
+  n1: 835712 0x10D711: construct_tree (q-digest.cpp:29)
+   n1: 835712 0x10D711: construct_tree (q-digest.cpp:29)
+    n1: 835712 0x10D711: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 835712 in 24 places, all below massif's threshold (1.00%)
+ n1: 835328 0x10CFE4: construct_tree (q-digest.cpp:20)
+  n1: 835328 0x10CFE4: construct_tree (q-digest.cpp:28)
+   n1: 835328 0x10CFE4: construct_tree (q-digest.cpp:28)
+    n1: 835328 0x10CFE4: construct_tree (q-digest.cpp:28)
+     n1: 835328 0x10CFE4: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 835328 in 24 places, all below massif's threshold (1.00%)
+ n1: 835328 0x10D094: construct_tree (q-digest.cpp:20)
+  n1: 835328 0x10D094: construct_tree (q-digest.cpp:29)
+   n1: 835328 0x10D094: construct_tree (q-digest.cpp:28)
+    n1: 835328 0x10D094: construct_tree (q-digest.cpp:28)
+     n1: 835328 0x10D094: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 835328 in 24 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=26
+#-----------
+time=9402901888
+mem_heap_B=63102064
+mem_heap_extra_B=15755200
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=9808259384
+mem_heap_B=55106992
+mem_heap_extra_B=13756432
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=10117137626
+mem_heap_B=55107016
+mem_heap_extra_B=13756440
+mem_stacks_B=0
+heap_tree=detailed
+n18: 55107016 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n5: 10038560 0x10CE51: QDigest::construct_tree(int, int) (q-digest.cpp:20)
+  n0: 7064800 in 20 places, all below massif's threshold (1.00%)
+  n1: 743456 0x10D2A5: construct_tree (q-digest.cpp:28)
+   n1: 743456 0x10D2A5: construct_tree (q-digest.cpp:28)
+    n1: 743456 0x10D2A5: construct_tree (q-digest.cpp:29)
+     n1: 743456 0x10D2A5: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 743456 in 24 places, all below massif's threshold (1.00%)
+  n1: 743456 0x10D2BF: construct_tree (q-digest.cpp:29)
+   n1: 743456 0x10D2BF: construct_tree (q-digest.cpp:28)
+    n1: 743456 0x10D2BF: construct_tree (q-digest.cpp:29)
+     n1: 743456 0x10D2BF: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 743456 in 24 places, all below massif's threshold (1.00%)
+  n1: 743424 0x10D479: construct_tree (q-digest.cpp:28)
+   n1: 743424 0x10D479: construct_tree (q-digest.cpp:28)
+    n1: 743424 0x10D479: construct_tree (q-digest.cpp:28)
+     n1: 743424 0x10D479: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+      n0: 743424 in 24 places, all below massif's threshold (1.00%)
+  n1: 743424 0x10D493: construct_tree (q-digest.cpp:29)
+   n1: 743424 0x10D493: construct_tree (q-digest.cpp:28)
+    n1: 743424 0x10D493: construct_tree (q-digest.cpp:28)
+     n1: 743424 0x10D493: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+      n0: 743424 in 24 places, all below massif's threshold (1.00%)
+ n1: 6872608 0x10CEAB: construct_tree (q-digest.cpp:20)
+  n1: 6872608 0x10CEAB: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+   n0: 6872608 in 24 places, all below massif's threshold (1.00%)
+ n1: 6872608 0x10D388: construct_tree (q-digest.cpp:20)
+  n1: 6872608 0x10D388: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+   n0: 6872608 in 24 places, all below massif's threshold (1.00%)
+ n1: 5434368 0x10CF11: construct_tree (q-digest.cpp:20)
+  n1: 5434368 0x10CF11: construct_tree (q-digest.cpp:28)
+   n1: 5434368 0x10CF11: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+    n0: 5434368 in 24 places, all below massif's threshold (1.00%)
+ n1: 5434368 0x10D1E2: construct_tree (q-digest.cpp:20)
+  n1: 5434368 0x10D1E2: construct_tree (q-digest.cpp:29)
+   n1: 5434368 0x10D1E2: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+    n0: 5434368 in 24 places, all below massif's threshold (1.00%)
+ n1: 2414208 0x10D3EF: construct_tree (q-digest.cpp:20)
+  n1: 2414208 0x10D3EF: construct_tree (q-digest.cpp:28)
+   n1: 2414208 0x10D3EF: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+    n0: 2414208 in 24 places, all below massif's threshold (1.00%)
+ n1: 2414208 0x10D54B: construct_tree (q-digest.cpp:20)
+  n1: 2414208 0x10D54B: construct_tree (q-digest.cpp:29)
+   n1: 2414208 0x10D54B: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+    n0: 2414208 in 24 places, all below massif's threshold (1.00%)
+ n1: 2414016 0x10CF7A: construct_tree (q-digest.cpp:20)
+  n1: 2414016 0x10CF7A: construct_tree (q-digest.cpp:28)
+   n1: 2414016 0x10CF7A: construct_tree (q-digest.cpp:28)
+    n1: 2414016 0x10CF7A: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 2414016 in 24 places, all below massif's threshold (1.00%)
+ n1: 2414016 0x10D140: construct_tree (q-digest.cpp:20)
+  n1: 2414016 0x10D140: construct_tree (q-digest.cpp:29)
+   n1: 2414016 0x10D140: construct_tree (q-digest.cpp:28)
+    n1: 2414016 0x10D140: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 2414016 in 24 places, all below massif's threshold (1.00%)
+ n0: 2156904 in 11 places, all below massif's threshold (1.00%)
+ n1: 2089696 0x10D432: construct_tree (q-digest.cpp:20)
+  n1: 2089696 0x10D432: construct_tree (q-digest.cpp:28)
+   n1: 2089696 0x10D432: construct_tree (q-digest.cpp:28)
+    n1: 2089696 0x10D432: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 2089696 in 24 places, all below massif's threshold (1.00%)
+ n1: 2089696 0x10D4C4: construct_tree (q-digest.cpp:20)
+  n1: 2089696 0x10D4C4: construct_tree (q-digest.cpp:29)
+   n1: 2089696 0x10D4C4: construct_tree (q-digest.cpp:28)
+    n1: 2089696 0x10D4C4: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 2089696 in 24 places, all below massif's threshold (1.00%)
+ n1: 743776 0x10D594: construct_tree (q-digest.cpp:20)
+  n1: 743776 0x10D594: construct_tree (q-digest.cpp:28)
+   n1: 743776 0x10D594: construct_tree (q-digest.cpp:29)
+    n1: 743776 0x10D594: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 743776 in 24 places, all below massif's threshold (1.00%)
+ n1: 743776 0x10D711: construct_tree (q-digest.cpp:20)
+  n1: 743776 0x10D711: construct_tree (q-digest.cpp:29)
+   n1: 743776 0x10D711: construct_tree (q-digest.cpp:29)
+    n1: 743776 0x10D711: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 743776 in 24 places, all below massif's threshold (1.00%)
+ n1: 743744 0x10D24C: construct_tree (q-digest.cpp:20)
+  n1: 743744 0x10D24C: construct_tree (q-digest.cpp:28)
+   n1: 743744 0x10D24C: construct_tree (q-digest.cpp:29)
+    n1: 743744 0x10D24C: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 743744 in 24 places, all below massif's threshold (1.00%)
+ n1: 743744 0x10D2F8: construct_tree (q-digest.cpp:20)
+  n1: 743744 0x10D2F8: construct_tree (q-digest.cpp:29)
+   n1: 743744 0x10D2F8: construct_tree (q-digest.cpp:29)
+    n1: 743744 0x10D2F8: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 743744 in 24 places, all below massif's threshold (1.00%)
+ n1: 743360 0x10CFE4: construct_tree (q-digest.cpp:20)
+  n1: 743360 0x10CFE4: construct_tree (q-digest.cpp:28)
+   n1: 743360 0x10CFE4: construct_tree (q-digest.cpp:28)
+    n1: 743360 0x10CFE4: construct_tree (q-digest.cpp:28)
+     n1: 743360 0x10CFE4: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 743360 in 24 places, all below massif's threshold (1.00%)
+ n1: 743360 0x10D094: construct_tree (q-digest.cpp:20)
+  n1: 743360 0x10D094: construct_tree (q-digest.cpp:29)
+   n1: 743360 0x10D094: construct_tree (q-digest.cpp:28)
+    n1: 743360 0x10D094: construct_tree (q-digest.cpp:28)
+     n1: 743360 0x10D094: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 743360 in 24 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=29
+#-----------
+time=10623834934
+mem_heap_B=54915747
+mem_heap_extra_B=13708629
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=11134410211
+mem_heap_B=53392554
+mem_heap_extra_B=13327822
+mem_stacks_B=0
+heap_tree=detailed
+n18: 53392554 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n5: 9683328 0x10CE51: QDigest::construct_tree(int, int) (q-digest.cpp:20)
+  n0: 6780480 in 20 places, all below massif's threshold (1.00%)
+  n1: 725728 0x10D479: construct_tree (q-digest.cpp:28)
+   n1: 725728 0x10D479: construct_tree (q-digest.cpp:28)
+    n1: 725728 0x10D479: construct_tree (q-digest.cpp:28)
+     n1: 725728 0x10D479: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+      n0: 725728 in 24 places, all below massif's threshold (1.00%)
+  n1: 725728 0x10D493: construct_tree (q-digest.cpp:29)
+   n1: 725728 0x10D493: construct_tree (q-digest.cpp:28)
+    n1: 725728 0x10D493: construct_tree (q-digest.cpp:28)
+     n1: 725728 0x10D493: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+      n0: 725728 in 24 places, all below massif's threshold (1.00%)
+  n1: 725696 0x10D2A5: construct_tree (q-digest.cpp:28)
+   n1: 725696 0x10D2A5: construct_tree (q-digest.cpp:28)
+    n1: 725696 0x10D2A5: construct_tree (q-digest.cpp:29)
+     n1: 725696 0x10D2A5: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 725696 in 24 places, all below massif's threshold (1.00%)
+  n1: 725696 0x10D2BF: construct_tree (q-digest.cpp:29)
+   n1: 725696 0x10D2BF: construct_tree (q-digest.cpp:28)
+    n1: 725696 0x10D2BF: construct_tree (q-digest.cpp:29)
+     n1: 725696 0x10D2BF: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 725696 in 24 places, all below massif's threshold (1.00%)
+ n1: 6620608 0x10CEAB: construct_tree (q-digest.cpp:20)
+  n1: 6620608 0x10CEAB: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+   n0: 6620608 in 24 places, all below massif's threshold (1.00%)
+ n1: 6620608 0x10D388: construct_tree (q-digest.cpp:20)
+  n1: 6620608 0x10D388: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+   n0: 6620608 in 24 places, all below massif's threshold (1.00%)
+ n1: 5256000 0x10CF11: construct_tree (q-digest.cpp:20)
+  n1: 5256000 0x10CF11: construct_tree (q-digest.cpp:28)
+   n1: 5256000 0x10CF11: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+    n0: 5256000 in 24 places, all below massif's threshold (1.00%)
+ n1: 5256000 0x10D1E2: construct_tree (q-digest.cpp:20)
+  n1: 5256000 0x10D1E2: construct_tree (q-digest.cpp:29)
+   n1: 5256000 0x10D1E2: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+    n0: 5256000 in 24 places, all below massif's threshold (1.00%)
+ n1: 2358112 0x10D3EF: construct_tree (q-digest.cpp:20)
+  n1: 2358112 0x10D3EF: construct_tree (q-digest.cpp:28)
+   n1: 2358112 0x10D3EF: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+    n0: 2358112 in 24 places, all below massif's threshold (1.00%)
+ n1: 2358112 0x10D54B: construct_tree (q-digest.cpp:20)
+  n1: 2358112 0x10D54B: construct_tree (q-digest.cpp:29)
+   n1: 2358112 0x10D54B: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+    n0: 2358112 in 24 places, all below massif's threshold (1.00%)
+ n1: 2357856 0x10CF7A: construct_tree (q-digest.cpp:20)
+  n1: 2357856 0x10CF7A: construct_tree (q-digest.cpp:28)
+   n1: 2357856 0x10CF7A: construct_tree (q-digest.cpp:28)
+    n1: 2357856 0x10CF7A: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 2357856 in 24 places, all below massif's threshold (1.00%)
+ n1: 2357856 0x10D140: construct_tree (q-digest.cpp:20)
+  n1: 2357856 0x10D140: construct_tree (q-digest.cpp:29)
+   n1: 2357856 0x10D140: construct_tree (q-digest.cpp:28)
+    n1: 2357856 0x10D140: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 2357856 in 24 places, all below massif's threshold (1.00%)
+ n0: 2085930 in 11 places, all below massif's threshold (1.00%)
+ n1: 2041280 0x10D432: construct_tree (q-digest.cpp:20)
+  n1: 2041280 0x10D432: construct_tree (q-digest.cpp:28)
+   n1: 2041280 0x10D432: construct_tree (q-digest.cpp:28)
+    n1: 2041280 0x10D432: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 2041280 in 24 places, all below massif's threshold (1.00%)
+ n1: 2041280 0x10D4C4: construct_tree (q-digest.cpp:20)
+  n1: 2041280 0x10D4C4: construct_tree (q-digest.cpp:29)
+   n1: 2041280 0x10D4C4: construct_tree (q-digest.cpp:28)
+    n1: 2041280 0x10D4C4: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 2041280 in 24 places, all below massif's threshold (1.00%)
+ n1: 726080 0x10D594: construct_tree (q-digest.cpp:20)
+  n1: 726080 0x10D594: construct_tree (q-digest.cpp:28)
+   n1: 726080 0x10D594: construct_tree (q-digest.cpp:29)
+    n1: 726080 0x10D594: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 726080 in 24 places, all below massif's threshold (1.00%)
+ n1: 726080 0x10D711: construct_tree (q-digest.cpp:20)
+  n1: 726080 0x10D711: construct_tree (q-digest.cpp:29)
+   n1: 726080 0x10D711: construct_tree (q-digest.cpp:29)
+    n1: 726080 0x10D711: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 726080 in 24 places, all below massif's threshold (1.00%)
+ n1: 726048 0x10D24C: construct_tree (q-digest.cpp:20)
+  n1: 726048 0x10D24C: construct_tree (q-digest.cpp:28)
+   n1: 726048 0x10D24C: construct_tree (q-digest.cpp:29)
+    n1: 726048 0x10D24C: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 726048 in 24 places, all below massif's threshold (1.00%)
+ n1: 726048 0x10D2F8: construct_tree (q-digest.cpp:20)
+  n1: 726048 0x10D2F8: construct_tree (q-digest.cpp:29)
+   n1: 726048 0x10D2F8: construct_tree (q-digest.cpp:29)
+    n1: 726048 0x10D2F8: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 726048 in 24 places, all below massif's threshold (1.00%)
+ n1: 725664 0x10CFE4: construct_tree (q-digest.cpp:20)
+  n1: 725664 0x10CFE4: construct_tree (q-digest.cpp:28)
+   n1: 725664 0x10CFE4: construct_tree (q-digest.cpp:28)
+    n1: 725664 0x10CFE4: construct_tree (q-digest.cpp:28)
+     n1: 725664 0x10CFE4: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 725664 in 24 places, all below massif's threshold (1.00%)
+ n1: 725664 0x10D094: construct_tree (q-digest.cpp:20)
+  n1: 725664 0x10D094: construct_tree (q-digest.cpp:29)
+   n1: 725664 0x10D094: construct_tree (q-digest.cpp:28)
+    n1: 725664 0x10D094: construct_tree (q-digest.cpp:28)
+     n1: 725664 0x10D094: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 725664 in 24 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=31
+#-----------
+time=11550497128
+mem_heap_B=51679024
+mem_heap_extra_B=12899440
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=11964881204
+mem_heap_B=51679040
+mem_heap_extra_B=12899440
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=12268899945
+mem_heap_B=46919984
+mem_heap_extra_B=11709680
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=12572918250
+mem_heap_B=46920031
+mem_heap_extra_B=11709689
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=13002280242
+mem_heap_B=44635568
+mem_heap_extra_B=11138576
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=13223019427
+mem_heap_B=44635618
+mem_heap_extra_B=11138598
+mem_stacks_B=0
+heap_tree=detailed
+n18: 44635618 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n5: 7856768 0x10CE51: QDigest::construct_tree(int, int) (q-digest.cpp:20)
+  n0: 5319872 in 20 places, all below massif's threshold (1.00%)
+  n1: 634240 0x10D2A5: construct_tree (q-digest.cpp:28)
+   n1: 634240 0x10D2A5: construct_tree (q-digest.cpp:28)
+    n1: 634240 0x10D2A5: construct_tree (q-digest.cpp:29)
+     n1: 634240 0x10D2A5: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 634240 in 24 places, all below massif's threshold (1.00%)
+  n1: 634240 0x10D2BF: construct_tree (q-digest.cpp:29)
+   n1: 634240 0x10D2BF: construct_tree (q-digest.cpp:28)
+    n1: 634240 0x10D2BF: construct_tree (q-digest.cpp:29)
+     n1: 634240 0x10D2BF: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 634240 in 24 places, all below massif's threshold (1.00%)
+  n1: 634208 0x10D479: construct_tree (q-digest.cpp:28)
+   n1: 634208 0x10D479: construct_tree (q-digest.cpp:28)
+    n1: 634208 0x10D479: construct_tree (q-digest.cpp:28)
+     n1: 634208 0x10D479: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+      n0: 634208 in 24 places, all below massif's threshold (1.00%)
+  n1: 634208 0x10D493: construct_tree (q-digest.cpp:29)
+   n1: 634208 0x10D493: construct_tree (q-digest.cpp:28)
+    n1: 634208 0x10D493: construct_tree (q-digest.cpp:28)
+     n1: 634208 0x10D493: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+      n0: 634208 in 24 places, all below massif's threshold (1.00%)
+ n1: 5331168 0x10CEAB: construct_tree (q-digest.cpp:20)
+  n1: 5331168 0x10CEAB: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+   n0: 5331168 in 24 places, all below massif's threshold (1.00%)
+ n1: 5331168 0x10D388: construct_tree (q-digest.cpp:20)
+  n1: 5331168 0x10D388: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+   n0: 5331168 in 24 places, all below massif's threshold (1.00%)
+ n1: 4349472 0x10CF11: construct_tree (q-digest.cpp:20)
+  n1: 4349472 0x10CF11: construct_tree (q-digest.cpp:28)
+   n1: 4349472 0x10CF11: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+    n0: 4349472 in 24 places, all below massif's threshold (1.00%)
+ n1: 4349472 0x10D1E2: construct_tree (q-digest.cpp:20)
+  n1: 4349472 0x10D1E2: construct_tree (q-digest.cpp:29)
+   n1: 4349472 0x10D1E2: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+    n0: 4349472 in 24 places, all below massif's threshold (1.00%)
+ n1: 2074784 0x10D3EF: construct_tree (q-digest.cpp:20)
+  n1: 2074784 0x10D3EF: construct_tree (q-digest.cpp:28)
+   n1: 2074784 0x10D3EF: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+    n0: 2074784 in 24 places, all below massif's threshold (1.00%)
+ n1: 2074784 0x10D54B: construct_tree (q-digest.cpp:20)
+  n1: 2074784 0x10D54B: construct_tree (q-digest.cpp:29)
+   n1: 2074784 0x10D54B: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+    n0: 2074784 in 24 places, all below massif's threshold (1.00%)
+ n1: 2074304 0x10CF7A: construct_tree (q-digest.cpp:20)
+  n1: 2074304 0x10CF7A: construct_tree (q-digest.cpp:28)
+   n1: 2074304 0x10CF7A: construct_tree (q-digest.cpp:28)
+    n1: 2074304 0x10CF7A: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 2074304 in 24 places, all below massif's threshold (1.00%)
+ n1: 2074304 0x10D140: construct_tree (q-digest.cpp:20)
+  n1: 2074304 0x10D140: construct_tree (q-digest.cpp:29)
+   n1: 2074304 0x10D140: construct_tree (q-digest.cpp:28)
+    n1: 2074304 0x10D140: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 2074304 in 24 places, all below massif's threshold (1.00%)
+ n1: 1796192 0x10D432: construct_tree (q-digest.cpp:20)
+  n1: 1796192 0x10D432: construct_tree (q-digest.cpp:28)
+   n1: 1796192 0x10D432: construct_tree (q-digest.cpp:28)
+    n1: 1796192 0x10D432: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 1796192 in 24 places, all below massif's threshold (1.00%)
+ n1: 1796192 0x10D4C4: construct_tree (q-digest.cpp:20)
+  n1: 1796192 0x10D4C4: construct_tree (q-digest.cpp:29)
+   n1: 1796192 0x10D4C4: construct_tree (q-digest.cpp:28)
+    n1: 1796192 0x10D4C4: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 1796192 in 24 places, all below massif's threshold (1.00%)
+ n0: 1720098 in 11 places, all below massif's threshold (1.00%)
+ n1: 634688 0x10D594: construct_tree (q-digest.cpp:20)
+  n1: 634688 0x10D594: construct_tree (q-digest.cpp:28)
+   n1: 634688 0x10D594: construct_tree (q-digest.cpp:29)
+    n1: 634688 0x10D594: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 634688 in 24 places, all below massif's threshold (1.00%)
+ n1: 634688 0x10D711: construct_tree (q-digest.cpp:20)
+  n1: 634688 0x10D711: construct_tree (q-digest.cpp:29)
+   n1: 634688 0x10D711: construct_tree (q-digest.cpp:29)
+    n1: 634688 0x10D711: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 634688 in 24 places, all below massif's threshold (1.00%)
+ n1: 634560 0x10D24C: construct_tree (q-digest.cpp:20)
+  n1: 634560 0x10D24C: construct_tree (q-digest.cpp:28)
+   n1: 634560 0x10D24C: construct_tree (q-digest.cpp:29)
+    n1: 634560 0x10D24C: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 634560 in 24 places, all below massif's threshold (1.00%)
+ n1: 634560 0x10D2F8: construct_tree (q-digest.cpp:20)
+  n1: 634560 0x10D2F8: construct_tree (q-digest.cpp:29)
+   n1: 634560 0x10D2F8: construct_tree (q-digest.cpp:29)
+    n1: 634560 0x10D2F8: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 634560 in 24 places, all below massif's threshold (1.00%)
+ n1: 634208 0x10CFE4: construct_tree (q-digest.cpp:20)
+  n1: 634208 0x10CFE4: construct_tree (q-digest.cpp:28)
+   n1: 634208 0x10CFE4: construct_tree (q-digest.cpp:28)
+    n1: 634208 0x10CFE4: construct_tree (q-digest.cpp:28)
+     n1: 634208 0x10CFE4: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 634208 in 24 places, all below massif's threshold (1.00%)
+ n1: 634208 0x10D094: construct_tree (q-digest.cpp:20)
+  n1: 634208 0x10D094: construct_tree (q-digest.cpp:29)
+   n1: 634208 0x10D094: construct_tree (q-digest.cpp:28)
+    n1: 634208 0x10D094: construct_tree (q-digest.cpp:28)
+     n1: 634208 0x10D094: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 634208 in 24 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=37
+#-----------
+time=13664570574
+mem_heap_B=41780144
+mem_heap_extra_B=10424720
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=14216412987
+mem_heap_B=38543920
+mem_heap_extra_B=9615664
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=14547519137
+mem_heap_B=38543975
+mem_heap_extra_B=9615681
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=14988995538
+mem_heap_B=30929072
+mem_heap_extra_B=7711952
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=15439859927
+mem_heap_B=30738532
+mem_heap_extra_B=7664324
+mem_stacks_B=0
+heap_tree=detailed
+n18: 30738532 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n5: 5541120 0x10CE51: QDigest::construct_tree(int, int) (q-digest.cpp:20)
+  n0: 3852608 in 20 places, all below massif's threshold (1.00%)
+  n1: 422144 0x10D479: construct_tree (q-digest.cpp:28)
+   n1: 422144 0x10D479: construct_tree (q-digest.cpp:28)
+    n1: 422144 0x10D479: construct_tree (q-digest.cpp:28)
+     n1: 422144 0x10D479: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+      n0: 422144 in 24 places, all below massif's threshold (1.00%)
+  n1: 422144 0x10D493: construct_tree (q-digest.cpp:29)
+   n1: 422144 0x10D493: construct_tree (q-digest.cpp:28)
+    n1: 422144 0x10D493: construct_tree (q-digest.cpp:28)
+     n1: 422144 0x10D493: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+      n0: 422144 in 24 places, all below massif's threshold (1.00%)
+  n1: 422112 0x10D2A5: construct_tree (q-digest.cpp:28)
+   n1: 422112 0x10D2A5: construct_tree (q-digest.cpp:28)
+    n1: 422112 0x10D2A5: construct_tree (q-digest.cpp:29)
+     n1: 422112 0x10D2A5: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 422112 in 24 places, all below massif's threshold (1.00%)
+  n1: 422112 0x10D2BF: construct_tree (q-digest.cpp:29)
+   n1: 422112 0x10D2BF: construct_tree (q-digest.cpp:28)
+    n1: 422112 0x10D2BF: construct_tree (q-digest.cpp:29)
+     n1: 422112 0x10D2BF: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 422112 in 24 places, all below massif's threshold (1.00%)
+ n1: 3777696 0x10CEAB: construct_tree (q-digest.cpp:20)
+  n1: 3777696 0x10CEAB: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+   n0: 3777696 in 24 places, all below massif's threshold (1.00%)
+ n1: 3777696 0x10D388: construct_tree (q-digest.cpp:20)
+  n1: 3777696 0x10D388: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+   n0: 3777696 in 24 places, all below massif's threshold (1.00%)
+ n1: 3012832 0x10CF11: construct_tree (q-digest.cpp:20)
+  n1: 3012832 0x10CF11: construct_tree (q-digest.cpp:28)
+   n1: 3012832 0x10CF11: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+    n0: 3012832 in 24 places, all below massif's threshold (1.00%)
+ n1: 3012832 0x10D1E2: construct_tree (q-digest.cpp:20)
+  n1: 3012832 0x10D1E2: construct_tree (q-digest.cpp:29)
+   n1: 3012832 0x10D1E2: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+    n0: 3012832 in 24 places, all below massif's threshold (1.00%)
+ n1: 1370016 0x10D3EF: construct_tree (q-digest.cpp:20)
+  n1: 1370016 0x10D3EF: construct_tree (q-digest.cpp:28)
+   n1: 1370016 0x10D3EF: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+    n0: 1370016 in 24 places, all below massif's threshold (1.00%)
+ n1: 1370016 0x10D54B: construct_tree (q-digest.cpp:20)
+  n1: 1370016 0x10D54B: construct_tree (q-digest.cpp:29)
+   n1: 1370016 0x10D54B: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+    n0: 1370016 in 24 places, all below massif's threshold (1.00%)
+ n1: 1369408 0x10CF7A: construct_tree (q-digest.cpp:20)
+  n1: 1369408 0x10CF7A: construct_tree (q-digest.cpp:28)
+   n1: 1369408 0x10CF7A: construct_tree (q-digest.cpp:28)
+    n1: 1369408 0x10CF7A: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 1369408 in 24 places, all below massif's threshold (1.00%)
+ n1: 1369408 0x10D140: construct_tree (q-digest.cpp:20)
+  n1: 1369408 0x10D140: construct_tree (q-digest.cpp:29)
+   n1: 1369408 0x10D140: construct_tree (q-digest.cpp:28)
+    n1: 1369408 0x10D140: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 1369408 in 24 places, all below massif's threshold (1.00%)
+ n0: 1231268 in 11 places, all below massif's threshold (1.00%)
+ n1: 1185888 0x10D432: construct_tree (q-digest.cpp:20)
+  n1: 1185888 0x10D432: construct_tree (q-digest.cpp:28)
+   n1: 1185888 0x10D432: construct_tree (q-digest.cpp:28)
+    n1: 1185888 0x10D432: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 1185888 in 24 places, all below massif's threshold (1.00%)
+ n1: 1185888 0x10D4C4: construct_tree (q-digest.cpp:20)
+  n1: 1185888 0x10D4C4: construct_tree (q-digest.cpp:29)
+   n1: 1185888 0x10D4C4: construct_tree (q-digest.cpp:28)
+    n1: 1185888 0x10D4C4: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 1185888 in 24 places, all below massif's threshold (1.00%)
+ n1: 422624 0x10D594: construct_tree (q-digest.cpp:20)
+  n1: 422624 0x10D594: construct_tree (q-digest.cpp:28)
+   n1: 422624 0x10D594: construct_tree (q-digest.cpp:29)
+    n1: 422624 0x10D594: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 422624 in 24 places, all below massif's threshold (1.00%)
+ n1: 422624 0x10D711: construct_tree (q-digest.cpp:20)
+  n1: 422624 0x10D711: construct_tree (q-digest.cpp:29)
+   n1: 422624 0x10D711: construct_tree (q-digest.cpp:29)
+    n1: 422624 0x10D711: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 422624 in 24 places, all below massif's threshold (1.00%)
+ n1: 422464 0x10D24C: construct_tree (q-digest.cpp:20)
+  n1: 422464 0x10D24C: construct_tree (q-digest.cpp:28)
+   n1: 422464 0x10D24C: construct_tree (q-digest.cpp:29)
+    n1: 422464 0x10D24C: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 422464 in 24 places, all below massif's threshold (1.00%)
+ n1: 422464 0x10D2F8: construct_tree (q-digest.cpp:20)
+  n1: 422464 0x10D2F8: construct_tree (q-digest.cpp:29)
+   n1: 422464 0x10D2F8: construct_tree (q-digest.cpp:29)
+    n1: 422464 0x10D2F8: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 422464 in 24 places, all below massif's threshold (1.00%)
+ n1: 422144 0x10CFE4: construct_tree (q-digest.cpp:20)
+  n1: 422144 0x10CFE4: construct_tree (q-digest.cpp:28)
+   n1: 422144 0x10CFE4: construct_tree (q-digest.cpp:28)
+    n1: 422144 0x10CFE4: construct_tree (q-digest.cpp:28)
+     n1: 422144 0x10CFE4: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 422144 in 24 places, all below massif's threshold (1.00%)
+ n1: 422144 0x10D094: construct_tree (q-digest.cpp:20)
+  n1: 422144 0x10D094: construct_tree (q-digest.cpp:29)
+   n1: 422144 0x10D094: construct_tree (q-digest.cpp:28)
+    n1: 422144 0x10D094: construct_tree (q-digest.cpp:28)
+     n1: 422144 0x10D094: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+      n0: 422144 in 24 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=42
+#-----------
+time=15770964521
+mem_heap_B=30738535
+mem_heap_extra_B=7664321
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=16102071852
+mem_heap_B=30738224
+mem_heap_extra_B=7664240
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=16653915033
+mem_heap_B=29024940
+mem_heap_extra_B=7235916
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=16874653470
+mem_heap_B=29024880
+mem_heap_extra_B=7235904
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=17205758804
+mem_heap_B=24456432
+mem_heap_extra_B=6093792
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=17426496882
+mem_heap_B=24456432
+mem_heap_extra_B=6093792
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=17867970194
+mem_heap_B=18364528
+mem_heap_extra_B=4570816
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=18309448301
+mem_heap_B=18364593
+mem_heap_extra_B=4570839
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=18520844459
+mem_heap_B=18364336
+mem_heap_extra_B=4570768
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=18732242603
+mem_heap_B=18364389
+mem_heap_extra_B=4570787
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=18949523312
+mem_heap_B=18364232
+mem_heap_extra_B=4570744
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=19160920050
+mem_heap_B=15318435
+mem_heap_extra_B=3809301
+mem_stacks_B=0
+heap_tree=detailed
+n12: 15318435 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3062912 0x10CE51: QDigest::construct_tree(int, int) (q-digest.cpp:20)
+  n0: 3062912 in 24 places, all below massif's threshold (1.00%)
+ n1: 2124416 0x10CEAB: construct_tree (q-digest.cpp:20)
+  n1: 2124416 0x10CEAB: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+   n0: 2124416 in 24 places, all below massif's threshold (1.00%)
+ n1: 2124416 0x10D388: construct_tree (q-digest.cpp:20)
+  n1: 2124416 0x10D388: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+   n0: 2124416 in 24 places, all below massif's threshold (1.00%)
+ n0: 1774243 in 17 places, all below massif's threshold (1.00%)
+ n1: 1540896 0x10CF11: construct_tree (q-digest.cpp:20)
+  n1: 1540896 0x10CF11: construct_tree (q-digest.cpp:28)
+   n1: 1540896 0x10CF11: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+    n0: 1540896 in 24 places, all below massif's threshold (1.00%)
+ n1: 1540896 0x10D1E2: construct_tree (q-digest.cpp:20)
+  n1: 1540896 0x10D1E2: construct_tree (q-digest.cpp:29)
+   n1: 1540896 0x10D1E2: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+    n0: 1540896 in 24 places, all below massif's threshold (1.00%)
+ n1: 549920 0x10D3EF: construct_tree (q-digest.cpp:20)
+  n1: 549920 0x10D3EF: construct_tree (q-digest.cpp:28)
+   n1: 549920 0x10D3EF: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+    n0: 549920 in 24 places, all below massif's threshold (1.00%)
+ n1: 549920 0x10D54B: construct_tree (q-digest.cpp:20)
+  n1: 549920 0x10D54B: construct_tree (q-digest.cpp:29)
+   n1: 549920 0x10D54B: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+    n0: 549920 in 24 places, all below massif's threshold (1.00%)
+ n1: 549312 0x10CF7A: construct_tree (q-digest.cpp:20)
+  n1: 549312 0x10CF7A: construct_tree (q-digest.cpp:28)
+   n1: 549312 0x10CF7A: construct_tree (q-digest.cpp:28)
+    n1: 549312 0x10CF7A: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 549312 in 24 places, all below massif's threshold (1.00%)
+ n1: 549312 0x10D140: construct_tree (q-digest.cpp:20)
+  n1: 549312 0x10D140: construct_tree (q-digest.cpp:29)
+   n1: 549312 0x10D140: construct_tree (q-digest.cpp:28)
+    n1: 549312 0x10D140: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 549312 in 24 places, all below massif's threshold (1.00%)
+ n1: 476096 0x10D432: construct_tree (q-digest.cpp:20)
+  n1: 476096 0x10D432: construct_tree (q-digest.cpp:28)
+   n1: 476096 0x10D432: construct_tree (q-digest.cpp:28)
+    n1: 476096 0x10D432: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 476096 in 24 places, all below massif's threshold (1.00%)
+ n1: 476096 0x10D4C4: construct_tree (q-digest.cpp:20)
+  n1: 476096 0x10D4C4: construct_tree (q-digest.cpp:29)
+   n1: 476096 0x10D4C4: construct_tree (q-digest.cpp:28)
+    n1: 476096 0x10D4C4: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 476096 in 24 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=54
+#-----------
+time=19372317700
+mem_heap_B=15318384
+mem_heap_extra_B=3809280
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=19583715040
+mem_heap_B=13795553
+mem_heap_extra_B=3428583
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=19795113502
+mem_heap_B=13795504
+mem_heap_extra_B=3428560
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=20006511269
+mem_heap_B=13795558
+mem_heap_extra_B=3428578
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=20217910207
+mem_heap_B=6561648
+mem_heap_extra_B=1620096
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=20429306894
+mem_heap_B=6561648
+mem_heap_extra_B=1620096
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=20640704808
+mem_heap_B=6561648
+mem_heap_extra_B=1620096
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=20852103198
+mem_heap_B=6561392
+mem_heap_extra_B=1620032
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=21063500275
+mem_heap_B=6561447
+mem_heap_extra_B=1620049
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=21274896381
+mem_heap_B=6561447
+mem_heap_extra_B=1620049
+mem_stacks_B=0
+heap_tree=detailed
+n12: 6561447 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1354304 0x10CE51: QDigest::construct_tree(int, int) (q-digest.cpp:20)
+  n0: 1354304 in 24 places, all below massif's threshold (1.00%)
+ n1: 954432 0x10CEAB: construct_tree (q-digest.cpp:20)
+  n1: 954432 0x10CEAB: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+   n0: 954432 in 24 places, all below massif's threshold (1.00%)
+ n1: 954432 0x10D388: construct_tree (q-digest.cpp:20)
+  n1: 954432 0x10D388: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+   n0: 954432 in 24 places, all below massif's threshold (1.00%)
+ n0: 762215 in 17 places, all below massif's threshold (1.00%)
+ n1: 669312 0x10CF11: construct_tree (q-digest.cpp:20)
+  n1: 669312 0x10CF11: construct_tree (q-digest.cpp:28)
+   n1: 669312 0x10CF11: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+    n0: 669312 in 24 places, all below massif's threshold (1.00%)
+ n1: 669312 0x10D1E2: construct_tree (q-digest.cpp:20)
+  n1: 669312 0x10D1E2: construct_tree (q-digest.cpp:29)
+   n1: 669312 0x10D1E2: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+    n0: 669312 in 24 places, all below massif's threshold (1.00%)
+ n1: 209376 0x10D3EF: construct_tree (q-digest.cpp:20)
+  n1: 209376 0x10D3EF: construct_tree (q-digest.cpp:28)
+   n1: 209376 0x10D3EF: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+    n0: 209376 in 24 places, all below massif's threshold (1.00%)
+ n1: 209376 0x10D54B: construct_tree (q-digest.cpp:20)
+  n1: 209376 0x10D54B: construct_tree (q-digest.cpp:29)
+   n1: 209376 0x10D54B: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+    n0: 209376 in 24 places, all below massif's threshold (1.00%)
+ n1: 208704 0x10CF7A: construct_tree (q-digest.cpp:20)
+  n1: 208704 0x10CF7A: construct_tree (q-digest.cpp:28)
+   n1: 208704 0x10CF7A: construct_tree (q-digest.cpp:28)
+    n1: 208704 0x10CF7A: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 208704 in 24 places, all below massif's threshold (1.00%)
+ n1: 208704 0x10D140: construct_tree (q-digest.cpp:20)
+  n1: 208704 0x10D140: construct_tree (q-digest.cpp:29)
+   n1: 208704 0x10D140: construct_tree (q-digest.cpp:28)
+    n1: 208704 0x10D140: QDigest::construct_tree(int, int) (q-digest.cpp:28)
+     n0: 208704 in 24 places, all below massif's threshold (1.00%)
+ n1: 180640 0x10D432: construct_tree (q-digest.cpp:20)
+  n1: 180640 0x10D432: construct_tree (q-digest.cpp:28)
+   n1: 180640 0x10D432: construct_tree (q-digest.cpp:28)
+    n1: 180640 0x10D432: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 180640 in 24 places, all below massif's threshold (1.00%)
+ n1: 180640 0x10D4C4: construct_tree (q-digest.cpp:20)
+  n1: 180640 0x10D4C4: construct_tree (q-digest.cpp:29)
+   n1: 180640 0x10D4C4: construct_tree (q-digest.cpp:28)
+    n1: 180640 0x10D4C4: QDigest::construct_tree(int, int) (q-digest.cpp:29)
+     n0: 180640 in 24 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=64
+#-----------
+time=21486292472
+mem_heap_B=6561200
+mem_heap_extra_B=1619984
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=21697690088
+mem_heap_B=6561256
+mem_heap_extra_B=1620000
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=21909087745
+mem_heap_B=6561254
+mem_heap_extra_B=1620002
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=22120485129
+mem_heap_B=5038128
+mem_heap_extra_B=1239216
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=22331883071
+mem_heap_B=5038185
+mem_heap_extra_B=1239231
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=22543281105
+mem_heap_B=5038128
+mem_heap_extra_B=1239216
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=22754680340
+mem_heap_B=1992560
+mem_heap_extra_B=477824
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=22966077982
+mem_heap_B=1992560
+mem_heap_extra_B=477824
+mem_stacks_B=0
+heap_tree=empty

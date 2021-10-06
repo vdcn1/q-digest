@@ -1,0 +1,9 @@
+Q-Digest algorithm implemented in C++.
+
+Syntax: q-diges --eps [valueEps] --val [targetCol] --univ [maxNumber] --in [inputFile] [rank | quant]
+
+--eps               The epsilon error constant the algorithm should guarantee.
+--val               Target column of input (in case of a csv file).
+--univ              The range of input universe the algorithm should reach.
+--in                Path of the file for the algorithm input.
+rank | quant        If you wish the query to be about ranking or a quantil.

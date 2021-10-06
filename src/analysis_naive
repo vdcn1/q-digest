@@ -1,0 +1,2300 @@
+--------------------------------------------------------------------------------
+Command:            ./q-digest --val 0 --in ../data/INPUT_query_quantil.csv --eps 0.1 --univ 1522916 ../data/network_flows.csv quant
+Massif arguments:   (none)
+ms_print arguments: --x=100 --y=100 massif.out.37727
+--------------------------------------------------------------------------------
+
+
+    MB
+116.3^##                                                                                                  
+     |# :                                                                                                 
+     |# :::                                                                                               
+     |# :: ::                                                                                             
+     |# :: : ::@@@:                                                                                       
+     |# :: : : @  :                                                                                       
+     |# :: : : @  ::::::                                                                                  
+     |# :: : : @  :: :  ::                                                                                
+     |# :: : : @  :: :  : @@                                                                              
+     |# :: : : @  :: :  : @ ::                                                                            
+     |# :: : : @  :: :  : @ :                                                                             
+     |# :: : : @  :: :  : @ : ::::                                                                        
+     |# :: : : @  :: :  : @ : ::                                                                          
+     |# :: : : @  :: :  : @ : ::  :::                                                                     
+     |# :: : : @  :: :  : @ : ::  ::                                                                      
+     |# :: : : @  :: :  : @ : ::  :: ::                                                                   
+     |# :: : : @  :: :  : @ : ::  :: : ::                                                                 
+     |# :: : : @  :: :  : @ : ::  :: : :                                                                  
+     |# :: : : @  :: :  : @ : ::  :: : : :::::                                                            
+     |# :: : : @  :: :  : @ : ::  :: : : :: : ::                                                          
+     |# :: : : @  :: :  : @ : ::  :: : : :: : :                                                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : :                                                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : :                                                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : :                                                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : :                                                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : ::::::@::                                                 
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @:                                                  
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @:                                                  
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @:                                                  
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @:                                                  
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @:                                                  
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @:                                                  
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @:                                                  
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @:                                                  
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @:                                                  
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @:                                                  
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @:                                                  
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @:                                                  
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: ::                                               
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: :                                                
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: :                                                
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: :                                                
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: :                                                
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: :                                                
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: :                                                
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: :                                                
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: :                                                
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: :                                                
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: :                                                
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: :                                                
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @@:::@@::::::::::@@::                          
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+     |# :: : : @  :: :  : @ : ::  :: : : :: : : :: :  @: : @ :: @ :: : :: : @ :                           
+   0 +--------------------------------------------------------------------------------------------------->Gi
+     0                                                                                               38.35
+
+Number of snapshots: 62
+ Detailed snapshots: [1 (peak), 6, 11, 26, 29, 32, 39, 42, 49, 59]
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+  0              0                0                0             0            0
+  1    256,112,283      121,915,080       97,548,326    24,366,754            0
+80.01% (97,548,326B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->79.95% (97,466,656B) 0x10B344: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| ->39.97% (48,733,312B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | ->26.21% (31,956,096B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | ->13.76% (16,777,184B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->06.88% (8,388,576B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (4,194,272B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,097,120B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (2,097,120B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (4,194,272B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,097,120B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (2,097,120B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->06.88% (8,388,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (4,194,272B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,097,120B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (2,097,120B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (4,194,272B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,097,120B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (2,097,120B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->12.45% (15,178,880B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->06.88% (8,388,576B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (4,194,272B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,097,120B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (2,097,120B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (4,194,272B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,097,120B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (2,097,120B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->05.57% (6,790,272B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (4,194,272B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,097,120B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (2,097,120B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->02.13% (2,595,968B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.27% (1,547,392B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.27% (1,547,392B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.86% (1,048,576B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->13.76% (16,777,184B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | ->06.88% (8,388,576B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->03.44% (4,194,272B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (2,097,120B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (2,097,120B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.44% (4,194,272B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (2,097,120B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (2,097,120B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->06.88% (8,388,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->03.44% (4,194,272B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (2,097,120B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (2,097,120B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.44% (4,194,272B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (2,097,120B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (2,097,120B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | 
+| ->39.97% (48,733,312B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | ->26.21% (31,956,096B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | ->13.76% (16,777,184B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->06.88% (8,388,576B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (4,194,272B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,097,120B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (2,097,120B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (4,194,272B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,097,120B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (2,097,120B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->06.88% (8,388,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (4,194,272B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,097,120B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (2,097,120B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (4,194,272B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,097,120B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (2,097,120B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->12.45% (15,178,880B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->06.88% (8,388,576B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (4,194,272B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,097,120B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (2,097,120B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (4,194,272B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,097,120B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (2,097,120B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->05.57% (6,790,272B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (4,194,272B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,097,120B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (2,097,120B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->02.13% (2,595,968B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.27% (1,547,392B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.27% (1,547,392B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.86% (1,048,576B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->13.76% (16,777,184B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | ->06.88% (8,388,576B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->03.44% (4,194,272B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (2,097,120B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (2,097,120B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.44% (4,194,272B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (2,097,120B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (2,097,120B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->06.88% (8,388,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->03.44% (4,194,272B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (2,097,120B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (2,097,120B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.44% (4,194,272B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (2,097,120B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (2,097,120B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,097,120B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | 
+| ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| 
+->00.07% (81,670B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+  2    890,505,298      121,480,384       97,200,574    24,279,810            0
+  3  1,510,179,531      120,462,384       96,386,174    24,076,210            0
+  4  2,105,817,281      119,166,160       95,349,194    23,816,966            0
+  5  3,238,719,346      118,114,448       94,507,823    23,606,625            0
+  6  3,865,240,791      118,114,200       94,507,621    23,606,579            0
+80.01% (94,507,621B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->79.94% (94,425,952B) 0x10B344: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| ->39.97% (47,212,960B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | ->26.21% (30,958,400B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | ->13.76% (16,253,312B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->06.88% (8,126,656B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (4,063,328B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,031,648B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,031,648B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (2,031,648B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,031,648B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (4,063,296B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,031,648B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,031,648B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (2,031,616B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,031,616B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->06.88% (8,126,624B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (4,063,328B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,031,648B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,031,648B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (2,031,648B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,031,648B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (4,063,264B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,031,616B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,031,616B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (2,031,616B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,031,616B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->12.45% (14,705,056B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->06.88% (8,126,720B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (4,063,360B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,031,680B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,031,680B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (2,031,648B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,031,648B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (4,063,328B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,031,648B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,031,648B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (2,031,648B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,031,648B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->05.57% (6,578,304B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (4,063,328B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,031,648B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,031,648B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (2,031,648B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,031,648B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->02.13% (2,514,944B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.27% (1,499,072B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.27% (1,499,072B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.86% (1,015,872B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->13.76% (16,254,528B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | ->06.88% (8,127,392B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->03.44% (4,063,680B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (2,031,840B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,031,840B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (2,031,808B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,031,808B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.44% (4,063,680B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (2,031,840B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,031,840B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (2,031,808B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,031,808B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->06.88% (8,127,104B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->03.44% (4,063,584B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (2,031,776B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,031,776B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (2,031,776B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,031,776B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.44% (4,063,488B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (2,031,744B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,031,744B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (2,031,712B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,031,712B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | 
+| ->39.97% (47,212,960B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | ->26.21% (30,958,400B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | ->13.76% (16,253,312B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->06.88% (8,126,656B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (4,063,328B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,031,648B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,031,648B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (2,031,648B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,031,648B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (4,063,296B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,031,648B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,031,648B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (2,031,616B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,031,616B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->06.88% (8,126,624B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (4,063,328B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,031,648B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,031,648B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (2,031,648B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,031,648B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (4,063,264B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,031,616B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,031,616B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (2,031,616B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,031,616B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->12.45% (14,705,056B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->06.88% (8,126,720B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (4,063,360B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,031,680B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,031,680B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (2,031,648B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,031,648B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (4,063,328B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,031,648B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,031,648B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (2,031,648B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,031,648B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->05.57% (6,578,304B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (4,063,328B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,031,648B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,031,648B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (2,031,648B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (2,031,648B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->02.13% (2,514,944B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.27% (1,499,072B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.27% (1,499,072B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.86% (1,015,872B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->13.76% (16,254,528B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | ->06.88% (8,127,392B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->03.44% (4,063,680B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (2,031,840B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,031,840B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (2,031,808B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,031,808B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.44% (4,063,680B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (2,031,840B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,031,840B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (2,031,808B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,031,808B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->06.88% (8,127,104B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->03.44% (4,063,584B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (2,031,776B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,031,776B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (2,031,776B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,031,776B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.44% (4,063,488B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (2,031,744B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,031,744B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (2,031,712B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (2,031,712B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | 
+| ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| 
+->00.07% (81,669B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+  7  4,942,835,281      117,192,480       93,770,247    23,422,233            0
+  8  5,564,446,465      115,735,248       92,604,463    23,130,785            0
+  9  6,306,146,880      115,081,184       92,081,213    22,999,971            0
+ 10  7,423,876,517      113,593,728       90,891,247    22,702,481            0
+ 11  8,439,250,842      112,672,000       90,153,861    22,518,139            0
+80.01% (90,153,861B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->79.94% (90,072,192B) 0x10B344: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| ->39.97% (45,036,096B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | ->26.21% (29,530,976B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | ->13.76% (15,503,872B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->06.88% (7,751,968B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (3,875,968B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,938,016B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,938,016B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,937,920B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,937,920B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (3,875,968B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,938,016B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,938,016B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,937,920B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,937,920B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->06.88% (7,751,872B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (3,875,968B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,938,016B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,938,016B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,937,920B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,937,920B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (3,875,872B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,937,952B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,937,952B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,937,888B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,937,888B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->12.45% (14,027,072B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->06.88% (7,752,096B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (3,876,128B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,938,080B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,938,080B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,938,016B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,938,016B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (3,875,936B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,937,952B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,937,952B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,937,952B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,937,952B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->05.57% (6,274,944B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (3,876,000B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,938,016B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,938,016B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,937,952B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,937,952B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->02.13% (2,398,912B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.27% (1,429,984B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.27% (1,429,984B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.86% (968,928B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->13.76% (15,505,088B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | ->06.88% (7,752,544B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->03.44% (3,876,352B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,938,176B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,938,176B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,938,144B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,938,144B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.44% (3,876,160B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,938,176B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,938,176B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,937,952B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,937,952B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->06.88% (7,752,512B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->03.44% (3,876,256B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,938,176B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,938,176B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,938,048B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,938,048B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.44% (3,876,224B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,938,176B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,938,176B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,938,016B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,938,016B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | 
+| ->39.97% (45,036,064B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | ->26.21% (29,530,976B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | ->13.76% (15,503,872B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->06.88% (7,751,968B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (3,875,968B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,938,016B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,938,016B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,937,920B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,937,920B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (3,875,968B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,938,016B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,938,016B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,937,920B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,937,920B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->06.88% (7,751,872B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (3,875,968B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,938,016B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,938,016B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,937,920B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,937,920B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (3,875,872B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,937,952B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,937,952B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,937,888B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,937,888B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->12.45% (14,027,072B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->06.88% (7,752,096B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (3,876,128B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,938,080B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,938,080B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,938,016B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,938,016B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (3,875,936B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,937,952B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,937,952B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,937,952B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,937,952B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->05.57% (6,274,944B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (3,876,000B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,938,016B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,938,016B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,937,952B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,937,952B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->02.13% (2,398,912B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.27% (1,429,984B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.27% (1,429,984B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.86% (968,928B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->13.76% (15,505,056B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | ->06.88% (7,752,544B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->03.44% (3,876,352B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,938,176B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,938,176B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,938,144B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,938,144B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.44% (3,876,160B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,938,176B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,938,176B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,937,952B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,937,952B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->06.88% (7,752,480B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->03.44% (3,876,256B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,938,176B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,938,176B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,938,048B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,938,048B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.44% (3,876,192B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,938,144B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,938,144B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,938,016B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,938,016B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | 
+| ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| 
+->00.07% (81,669B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 12  9,467,883,947      111,095,520       88,892,678    22,202,842            0
+ 13 10,216,231,842      109,668,240       87,750,862    21,917,378            0
+ 14 10,699,751,314      108,716,480       86,989,442    21,727,038            0
+ 15 11,597,218,108      106,812,480       85,466,247    21,346,233            0
+ 16 12,093,098,784      106,693,400       85,370,989    21,322,411            0
+ 17 12,975,918,135      104,789,200       83,847,616    20,941,584            0
+ 18 13,911,636,135      103,361,504       82,705,470    20,656,034            0
+ 19 14,592,455,391      100,981,888       80,801,775    20,180,113            0
+ 20 15,228,548,964      100,981,728       80,801,647    20,180,081            0
+ 21 15,853,929,216      100,981,440       80,801,412    20,180,028            0
+ 22 16,700,969,152       99,077,744       79,278,463    19,799,281            0
+ 23 17,393,160,324       91,462,976       73,186,642    18,276,334            0
+ 24 18,065,526,380       91,462,528       73,186,287    18,276,241            0
+ 25 18,736,718,153       91,462,528       73,186,287    18,276,241            0
+ 26 19,804,603,430       91,462,520       73,186,284    18,276,236            0
+80.02% (73,186,284B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->79.93% (73,104,608B) 0x10B344: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| ->39.96% (36,552,288B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | ->26.21% (23,968,032B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | ->13.76% (12,583,296B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->06.88% (6,291,680B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (3,145,856B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,572,928B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,572,928B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,572,896B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,572,896B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (3,145,792B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,572,896B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,572,896B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,572,864B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,572,864B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->06.88% (6,291,584B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (3,145,792B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,572,896B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,572,896B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,572,864B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,572,864B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (3,145,760B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,572,864B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,572,864B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,572,864B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,572,864B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->12.45% (11,384,704B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->06.88% (6,291,744B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (3,145,888B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,572,928B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,572,928B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,572,928B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,572,928B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (3,145,824B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,572,896B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,572,896B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,572,896B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,572,896B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->05.57% (5,092,928B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (3,145,856B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,572,928B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,572,928B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,572,896B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,572,896B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->02.13% (1,947,040B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.27% (1,160,576B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.27% (1,160,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.86% (786,464B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->13.76% (12,584,224B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | ->06.88% (6,292,128B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->03.44% (3,146,080B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,573,056B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,573,056B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,572,992B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,572,992B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.44% (3,146,016B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,572,992B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,572,992B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,572,992B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,572,992B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->06.88% (6,292,064B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->03.44% (3,146,080B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,573,056B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,573,056B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,572,992B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,572,992B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.44% (3,145,952B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,572,992B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,572,992B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,572,928B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,572,928B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | 
+| ->39.96% (36,552,288B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | ->26.21% (23,968,032B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | ->13.76% (12,583,296B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->06.88% (6,291,680B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (3,145,856B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,572,928B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,572,928B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,572,896B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,572,896B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (3,145,792B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,572,896B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,572,896B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,572,864B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,572,864B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->06.88% (6,291,584B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (3,145,792B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,572,896B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,572,896B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,572,864B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,572,864B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (3,145,760B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,572,864B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,572,864B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,572,864B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,572,864B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->12.45% (11,384,704B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->06.88% (6,291,744B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (3,145,888B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,572,928B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,572,928B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,572,928B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,572,928B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (3,145,824B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,572,896B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,572,896B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,572,896B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,572,896B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->05.57% (5,092,928B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (3,145,856B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,572,928B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,572,928B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,572,896B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,572,896B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->02.13% (1,947,040B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.27% (1,160,576B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.27% (1,160,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.86% (786,464B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->13.76% (12,584,224B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | ->06.88% (6,292,128B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->03.44% (3,146,080B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,573,056B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,573,056B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,572,992B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,572,992B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.44% (3,146,016B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,572,992B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,572,992B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,572,992B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,572,992B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->06.88% (6,292,064B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->03.44% (3,146,080B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,573,056B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,573,056B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,572,992B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,572,992B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.44% (3,145,952B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,572,992B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,572,992B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,572,928B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,572,928B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | 
+| ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| 
+->00.09% (81,676B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 27 20,476,190,085       91,462,280       73,186,081    18,276,199            0
+ 28 21,147,581,959       76,777,080       61,437,935    15,339,145            0
+ 29 22,003,611,738       61,003,488       48,819,055    12,184,433            0
+80.03% (48,819,055B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->79.89% (48,737,440B) 0x10B344: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| ->39.95% (24,368,704B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | ->26.19% (15,978,912B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | ->13.75% (8,388,928B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->06.88% (4,194,464B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (2,097,248B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,640B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,640B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (2,097,184B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,576B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->06.88% (4,194,432B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (2,097,216B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,640B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,640B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (0B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (2,097,184B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,576B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->12.44% (7,589,952B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->06.88% (4,194,592B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (2,097,344B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,672B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,672B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,640B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,640B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (2,097,248B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,608B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,608B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,608B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,608B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (0B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->05.57% (3,395,328B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (2,097,248B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,640B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,640B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,608B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,608B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (0B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->02.13% (1,298,048B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.27% (773,728B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.27% (773,728B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.86% (524,320B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->13.75% (8,389,760B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | ->06.88% (4,194,944B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->03.44% (2,097,472B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,048,736B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,736B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,048,704B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,704B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.44% (2,097,472B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,048,736B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,736B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,048,704B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,704B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (0B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->06.88% (4,194,784B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->03.44% (2,097,440B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,048,736B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,736B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,048,704B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,704B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (0B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.44% (2,097,312B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,048,704B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,704B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,048,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | 
+| ->39.95% (24,368,704B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | ->26.19% (15,978,912B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | ->13.75% (8,388,928B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->06.88% (4,194,464B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (2,097,248B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,640B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,640B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (2,097,184B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,576B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->06.88% (4,194,432B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (2,097,216B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,640B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,640B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (0B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (2,097,184B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,576B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->12.44% (7,589,952B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->06.88% (4,194,592B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (2,097,344B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,672B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,672B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,640B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,640B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (2,097,248B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,608B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,608B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,608B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,608B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (0B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->05.57% (3,395,328B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (2,097,248B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,640B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,640B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,608B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,608B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (0B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->02.13% (1,298,048B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.27% (773,728B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.27% (773,728B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.86% (524,320B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->13.75% (8,389,760B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | ->06.88% (4,194,944B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->03.44% (2,097,472B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,048,736B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,736B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,048,704B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,704B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.44% (2,097,472B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,048,736B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,736B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,048,704B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,704B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (0B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->06.88% (4,194,784B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->03.44% (2,097,440B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,048,736B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,736B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,048,704B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,704B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (0B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.44% (2,097,312B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,048,704B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,704B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,048,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | 
+| ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| 
+->00.13% (81,615B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 30 22,837,121,710       61,003,280       48,818,894    12,184,386            0
+ 31 23,254,143,729       61,003,200       48,818,823    12,184,377            0
+ 32 24,087,871,287       61,003,008       48,818,671    12,184,337            0
+80.03% (48,818,671B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->79.89% (48,737,056B) 0x10B344: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| ->39.95% (24,368,512B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | ->26.19% (15,978,848B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | ->13.75% (8,388,928B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->06.88% (4,194,464B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (2,097,248B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,640B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,640B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (2,097,184B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,576B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->06.88% (4,194,432B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (2,097,216B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,640B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,640B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (0B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (2,097,184B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,576B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->12.44% (7,589,888B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->06.88% (4,194,560B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (2,097,344B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,672B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,672B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,640B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,640B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (2,097,216B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,608B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,608B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,576B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (0B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->05.57% (3,395,296B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (2,097,216B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,608B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,608B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,608B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,608B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (0B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->02.13% (1,298,048B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.27% (773,728B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.27% (773,728B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.86% (524,320B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->13.75% (8,389,632B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | ->06.88% (4,194,880B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->03.44% (2,097,472B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,048,736B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,736B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,048,704B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,704B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.44% (2,097,408B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,048,704B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,704B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,048,672B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,672B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (0B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->06.88% (4,194,720B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->03.44% (2,097,376B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,048,704B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,704B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,048,672B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,672B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (0B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.44% (2,097,312B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,048,704B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,704B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,048,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | 
+| ->39.95% (24,368,512B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | ->26.19% (15,978,848B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | ->13.75% (8,388,928B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->06.88% (4,194,464B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (2,097,248B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,640B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,640B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (2,097,184B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,576B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->06.88% (4,194,432B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (2,097,216B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,640B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,640B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (0B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (2,097,184B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,576B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->12.44% (7,589,888B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->06.88% (4,194,560B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (2,097,344B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,672B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,672B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,640B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,640B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (2,097,216B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,608B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,608B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,576B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (0B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->05.57% (3,395,296B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (2,097,216B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,608B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,608B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,608B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,608B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (0B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->02.13% (1,298,048B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.27% (773,728B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.27% (773,728B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.86% (524,320B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->13.75% (8,389,632B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | ->06.88% (4,194,880B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->03.44% (2,097,472B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,048,736B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,736B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,048,704B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,704B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.44% (2,097,408B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,048,704B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,704B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,048,672B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,672B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (0B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->06.88% (4,194,720B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->03.44% (2,097,376B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,048,704B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,704B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,048,672B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,672B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (0B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.44% (2,097,312B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,048,704B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,704B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,048,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | 
+| ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| 
+->00.13% (81,615B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 33 24,817,477,669       61,002,800       48,818,502    12,184,298            0
+ 34 25,293,866,820       61,002,760       48,818,469    12,184,291            0
+ 35 26,276,040,914       61,002,560       48,818,315    12,184,245            0
+ 36 27,005,063,928       61,002,128       48,817,967    12,184,161            0
+ 37 27,481,454,812       61,002,048       48,817,903    12,184,145            0
+ 38 28,210,992,599       61,001,968       48,817,839    12,184,129            0
+ 39 28,940,284,206       61,001,968       48,817,839    12,184,129            0
+80.03% (48,817,839B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->79.89% (48,736,224B) 0x10B344: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| ->39.95% (24,368,096B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | ->26.19% (15,978,656B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | ->13.75% (8,388,832B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->06.88% (4,194,400B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (2,097,216B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,608B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,608B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (2,097,152B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,544B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,544B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->06.88% (4,194,400B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (2,097,184B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,608B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,608B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (0B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (2,097,184B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,576B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->12.44% (7,589,792B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->06.88% (4,194,496B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (2,097,312B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,672B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,672B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,608B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,608B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (2,097,184B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,576B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (0B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->05.57% (3,395,264B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (2,097,216B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,608B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,608B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,608B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,608B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (0B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->02.13% (1,298,016B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.27% (773,696B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.27% (773,696B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.86% (524,320B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->13.75% (8,389,408B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | ->06.88% (4,194,720B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->03.44% (2,097,376B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,048,704B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,704B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,048,640B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,640B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.44% (2,097,344B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,048,672B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,672B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,048,640B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,640B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (0B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->06.88% (4,194,656B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->03.44% (2,097,344B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,048,704B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,704B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,048,640B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,640B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (0B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.44% (2,097,280B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,048,672B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,672B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,048,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | 
+| ->39.95% (24,368,096B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | ->26.19% (15,978,656B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | ->13.75% (8,388,832B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->06.88% (4,194,400B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (2,097,216B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,608B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,608B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (2,097,152B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,544B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,544B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->06.88% (4,194,400B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (2,097,184B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,608B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,608B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (0B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (2,097,184B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,576B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->12.44% (7,589,792B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->06.88% (4,194,496B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (2,097,312B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,672B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,672B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,608B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,608B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->03.44% (2,097,184B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,576B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (0B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->05.57% (3,395,264B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->03.44% (2,097,216B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,608B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,608B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->01.72% (1,048,608B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.72% (1,048,608B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.00% (0B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->02.13% (1,298,016B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.27% (773,696B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | | ->01.27% (773,696B) in 3 places, all below massif's threshold (1.00%)
+| | | | | | |   
+| | | | | | ->00.86% (524,320B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | | 
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->13.75% (8,389,408B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | ->06.88% (4,194,720B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->03.44% (2,097,376B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,048,704B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,704B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,048,640B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,640B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.44% (2,097,344B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,048,672B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,672B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,048,640B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,640B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (0B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->06.88% (4,194,656B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | ->03.44% (2,097,344B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,048,704B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,704B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,048,640B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,640B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (0B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->03.44% (2,097,280B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | ->01.72% (1,048,672B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,672B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->01.72% (1,048,576B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | | | | | ->01.72% (1,048,576B) in 3 places, all below massif's threshold (1.00%)
+| | | | | |   
+| | | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | | 
+| | | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | | 
+| | | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | | 
+| | ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| | 
+| ->00.00% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| 
+->00.13% (81,615B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 40 29,669,695,715       61,001,808       48,817,711    12,184,097            0
+ 41 30,691,288,455           85,080           84,322           758            0
+ 42 31,405,870,806           85,000           84,264           736            0
+99.13% (84,264B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->85.53% (72,704B) 0x48FD26A: pool (eh_alloc.cc:123)
+| ->85.53% (72,704B) 0x48FD26A: __static_initialization_and_destruction_0 (eh_alloc.cc:262)
+|   ->85.53% (72,704B) 0x48FD26A: _GLOBAL__sub_I_eh_alloc.cc (eh_alloc.cc:338)
+|     ->85.53% (72,704B) 0x400FE2D: call_init (in /usr/lib/ld-2.33.so)
+|       ->85.53% (72,704B) 0x400FF1B: _dl_init (in /usr/lib/ld-2.33.so)
+|         ->85.53% (72,704B) 0x40010C9: ??? (in /usr/lib/ld-2.33.so)
+|           ->85.53% (72,704B) 0xA: ???
+|             ->85.53% (72,704B) 0x1FFF000922: ???
+|               ->85.53% (72,704B) 0x1FFF00092D: ???
+|                 ->85.53% (72,704B) 0x1FFF000933: ???
+|                   ->85.53% (72,704B) 0x1FFF000935: ???
+|                     ->85.53% (72,704B) 0x1FFF00093A: ???
+|                       ->85.53% (72,704B) 0x1FFF00095A: ???
+|                         ->85.53% (72,704B) 0x1FFF000960: ???
+|                           ->85.53% (72,704B) 0x1FFF000964: ???
+|                             ->85.53% (72,704B) 0x1FFF00096B: ???
+|                               ->85.53% (72,704B) 0x1FFF000973: ???
+|                                 ->85.53% (72,704B) 0x1FFF00098D: ???
+|                                   
+->09.64% (8,192B) 0x4966194: _M_allocate_internal_buffer (fstream.tcc:56)
+| ->09.64% (8,192B) 0x4966194: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (fstream.tcc:49)
+|   ->09.64% (8,192B) 0x496A34A: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (fstream.tcc:188)
+|     ->09.64% (8,192B) 0x496ACE4: open (fstream:337)
+|       ->09.64% (8,192B) 0x496ACE4: open (fstream:704)
+|         ->09.64% (8,192B) 0x496ACE4: std::basic_ifstream<char, std::char_traits<char> >::basic_ifstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (fstream:572)
+|           ->09.64% (8,192B) 0x10AB0E: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+|             
+->03.05% (2,592B) 0x10B344: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| ->01.51% (1,280B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | ->01.51% (1,280B) in 3 places, all below massif's threshold (1.00%)
+| |   
+| ->01.51% (1,280B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | ->01.51% (1,280B) in 3 places, all below massif's threshold (1.00%)
+| |   
+| ->00.04% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| 
+->00.91% (776B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 43 32,120,455,209           84,928           84,207           721            0
+ 44 32,596,845,143           84,608           83,951           657            0
+ 45 33,549,619,888           84,600           83,945           655            0
+ 46 34,026,008,529           84,600           83,937           663            0
+ 47 34,740,591,832           84,528           83,887           641            0
+ 48 35,693,365,100           84,440           83,816           624            0
+ 49 36,169,752,673           84,288           83,695           593            0
+99.30% (83,695B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->86.26% (72,704B) 0x48FD26A: pool (eh_alloc.cc:123)
+| ->86.26% (72,704B) 0x48FD26A: __static_initialization_and_destruction_0 (eh_alloc.cc:262)
+|   ->86.26% (72,704B) 0x48FD26A: _GLOBAL__sub_I_eh_alloc.cc (eh_alloc.cc:338)
+|     ->86.26% (72,704B) 0x400FE2D: call_init (in /usr/lib/ld-2.33.so)
+|       ->86.26% (72,704B) 0x400FF1B: _dl_init (in /usr/lib/ld-2.33.so)
+|         ->86.26% (72,704B) 0x40010C9: ??? (in /usr/lib/ld-2.33.so)
+|           ->86.26% (72,704B) 0xA: ???
+|             ->86.26% (72,704B) 0x1FFF000922: ???
+|               ->86.26% (72,704B) 0x1FFF00092D: ???
+|                 ->86.26% (72,704B) 0x1FFF000933: ???
+|                   ->86.26% (72,704B) 0x1FFF000935: ???
+|                     ->86.26% (72,704B) 0x1FFF00093A: ???
+|                       ->86.26% (72,704B) 0x1FFF00095A: ???
+|                         ->86.26% (72,704B) 0x1FFF000960: ???
+|                           ->86.26% (72,704B) 0x1FFF000964: ???
+|                             ->86.26% (72,704B) 0x1FFF00096B: ???
+|                               ->86.26% (72,704B) 0x1FFF000973: ???
+|                                 ->86.26% (72,704B) 0x1FFF00098D: ???
+|                                   
+->09.72% (8,192B) 0x4966194: _M_allocate_internal_buffer (fstream.tcc:56)
+| ->09.72% (8,192B) 0x4966194: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (fstream.tcc:49)
+|   ->09.72% (8,192B) 0x496A34A: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (fstream.tcc:188)
+|     ->09.72% (8,192B) 0x496ACE4: open (fstream:337)
+|       ->09.72% (8,192B) 0x496ACE4: open (fstream:704)
+|         ->09.72% (8,192B) 0x496ACE4: std::basic_ifstream<char, std::char_traits<char> >::basic_ifstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (fstream:572)
+|           ->09.72% (8,192B) 0x10AB0E: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+|             
+->02.47% (2,080B) 0x10B344: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| ->01.21% (1,024B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | ->01.21% (1,024B) in 3 places, all below massif's threshold (1.00%)
+| |   
+| ->01.21% (1,024B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | ->01.21% (1,024B) in 3 places, all below massif's threshold (1.00%)
+| |   
+| ->00.04% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| 
+->00.85% (719B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 50 36,586,775,024           84,208           83,631           577            0
+ 51 37,003,797,817           84,128           83,567           561            0
+ 52 37,420,821,539           84,200           83,626           574            0
+ 53 37,837,846,402           84,128           83,567           561            0
+ 54 38,254,872,073           84,128           83,567           561            0
+ 55 38,671,896,488           84,200           83,616           584            0
+ 56 39,088,921,197           83,968           83,439           529            0
+ 57 39,505,944,972           84,024           83,487           537            0
+ 58 39,922,968,281           83,968           83,439           529            0
+ 59 40,339,992,041           84,040           83,488           552            0
+99.34% (83,488B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->86.51% (72,704B) 0x48FD26A: pool (eh_alloc.cc:123)
+| ->86.51% (72,704B) 0x48FD26A: __static_initialization_and_destruction_0 (eh_alloc.cc:262)
+|   ->86.51% (72,704B) 0x48FD26A: _GLOBAL__sub_I_eh_alloc.cc (eh_alloc.cc:338)
+|     ->86.51% (72,704B) 0x400FE2D: call_init (in /usr/lib/ld-2.33.so)
+|       ->86.51% (72,704B) 0x400FF1B: _dl_init (in /usr/lib/ld-2.33.so)
+|         ->86.51% (72,704B) 0x40010C9: ??? (in /usr/lib/ld-2.33.so)
+|           ->86.51% (72,704B) 0xA: ???
+|             ->86.51% (72,704B) 0x1FFF000922: ???
+|               ->86.51% (72,704B) 0x1FFF00092D: ???
+|                 ->86.51% (72,704B) 0x1FFF000933: ???
+|                   ->86.51% (72,704B) 0x1FFF000935: ???
+|                     ->86.51% (72,704B) 0x1FFF00093A: ???
+|                       ->86.51% (72,704B) 0x1FFF00095A: ???
+|                         ->86.51% (72,704B) 0x1FFF000960: ???
+|                           ->86.51% (72,704B) 0x1FFF000964: ???
+|                             ->86.51% (72,704B) 0x1FFF00096B: ???
+|                               ->86.51% (72,704B) 0x1FFF000973: ???
+|                                 ->86.51% (72,704B) 0x1FFF00098D: ???
+|                                   
+->09.75% (8,192B) 0x4966194: _M_allocate_internal_buffer (fstream.tcc:56)
+| ->09.75% (8,192B) 0x4966194: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (fstream.tcc:49)
+|   ->09.75% (8,192B) 0x496A34A: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (fstream.tcc:188)
+|     ->09.75% (8,192B) 0x496ACE4: open (fstream:337)
+|       ->09.75% (8,192B) 0x496ACE4: open (fstream:704)
+|         ->09.75% (8,192B) 0x496ACE4: std::basic_ifstream<char, std::char_traits<char> >::basic_ifstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (fstream:572)
+|           ->09.75% (8,192B) 0x10AB0E: main (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+|             
+->02.17% (1,824B) 0x10B344: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| ->01.07% (896B) 0x10B3A7: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | ->01.07% (896B) in 3 places, all below massif's threshold (1.00%)
+| |   
+| ->01.07% (896B) 0x10B3C6: QDigest::construct_tree(int, int) (in /home/victorn/Algoritmos com Streams - Projeto 02/q-digest/src/q-digest)
+| | ->01.07% (896B) in 3 places, all below massif's threshold (1.00%)
+| |   
+| ->00.04% (32B) in 1+ places, all below ms_print's threshold (01.00%)
+| 
+->00.91% (768B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 60 40,757,014,688           84,040           83,499           541            0
+ 61 41,174,038,036           83,888           83,375           513            0
